@@ -58,7 +58,7 @@ app.post("/verify-payment", (req, res) => {
 
         res.json({
             success: true,
-            downloadUrl: `http://localhost:5000/download/${token}`
+            downloadUrl: `https://learntechnotes.onrender.com/download/${token}`
         });
 
     } else {
@@ -104,6 +104,9 @@ app.get("/download/:token", (req, res) => {
 // ==============================
 // Server Start
 // ==============================
-app.listen(5000, () => {
-    console.log("Backend running on http://localhost:5000");
+const PORT = process.env.PORT || 5000;
+
+app.listen(PORT, () => {
+    console.log(`Backend running on port ${PORT}`);
 });
+
