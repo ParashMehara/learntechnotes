@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LearnTechNotes — Handwritten Notes for C, C++, Java, Python & Web Development</title>
+  <meta name="description" content="Download premium handwritten notes for C, C++, Python, Java, and Web Development at affordable prices. Easy to access and student-friendly." />
+  <meta property="og:title" content="LearnTechNotes — Quality Handwritten Notes" />
+  <meta property="og:description" content="Affordable handwritten notes for programming and web development." />
+  <meta property="og:image" content="assets/preview.png" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://learntechnotes.in/" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <div class="logo-badge">
+          <img src="stricker2.png" alt="LearnTechNotes Logo" />
+        </div>
+        <div class="brand-text">
+          <h1>LearnTechNotes</h1>
+          <p class="tag">Handwritten Notes</p>
+        </div>
+      </div>
+	  <div class="hamburger" onclick="toggleMenu()">☰</div>
+
+      <nav class="nav" id="navMenu">
+        <a href="#" class="nav-link">Home</a>
+        <a href="#courses" class="nav-link">Courses</a>
+		<a href="#pro-section" class="nav-link">Advanced Skills</a>
+        <a href="#how" class="nav-link">How It Works</a>
+        <a href="#about" class="nav-link">About</a>
+        <!-- ✅ Contact popup -->
+        <a href="#" class="nav-link" onclick="openContact()">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero-inner">
+      <div class="hero-left">
+        <h2>Learn <span>Programming</span> Faster with Clean Handwritten Notes</h2>
+        <p>From coding fundamentals to automation and interview prep—master skills the easy way.</p>
+        <div class="hero-actions">
+          <a href="#courses" class="btn primary">Explore Notes</a>
+          <a href="#about" class="btn ghost">Learn More</a>
+        </div>
+        <ul class="benefits">
+          <li>✔ Easy-to-read handwritten notes</li>
+		  <li>✔ Practical concepts explained simply</li>
+          <li>✔ Affordable pricing</li>
+          <li>✔ Instant access after payment</li>
+        </ul>
+      </div>
+      <div class="hero-right">
+        <div class="mockup">
+          <img src="preview.png" alt="LearnTechNotes Preview" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COURSES -->
+  <section class="section" id="courses">
+    <div class="container">
+      <h3 class="section-title">Available Notes</h3>
+      <p class="section-sub">Choose your subject and start learning instantly.</p>
+      <div class="grid">
+        <div class="card">
+          <img src="c.png" alt="C Language Notes" class="card-image" />
+          <div class="card-body">
+            <h4>C Language</h4>
+            <p>Comprehensive handwritten notes covering all core C programming concepts.</p>
+            <div class="price-row">
+              <span class="price">₹99</span>
+              <button class="btn small primary" onclick="buyNow('C Language Notes', 99)">Buy & Download</button>
+
+
+
+            </div>
+          </div>
+        </div>
+		
+		<div class="card">
+          <img src="web.png" alt="Web Development Notes" class="card-image" />
+          <div class="card-body">
+            <h4>Web Development</h4>
+            <p>Notes for HTML, CSS, and JavaScript – perfect for web dev beginners.</p>
+            <div class="price-row">
+              <span class="price">₹149</span>
+				<button class="btn small primary" onclick="buyNow('Web Development Notes', 149)">Buy & Download</button>
+
+            </div>
+          </div>
+        </div>
+		
+		<div class="card">
+		  <img src="C++.png" alt="C++ Notes" class="card-image">
+		  <div class="card-body">
+			<h4>C++ Notes</h4>
+			<p>Learn object-oriented programming, STL, pointers, and advanced C++ concepts with clean, concise notes.</p>
+			<div class="price-row">
+			  <div class="price">Coming Soon</div>
+			</div>
+		  </div>
+		</div>
+
+		
+		<div class="card">
+		  <img src="SQL.png" alt="SQL Notes" class="card-image">
+		  <div class="card-body">
+			<h4>SQL Notes</h4>
+			<p>Master database concepts, queries, joins, and real-world SQL commands for backend and analytics.</p>
+			<div class="price-row">
+			  <div class="price">Coming Soon</div>
+			</div>
+		  </div>
+		</div>
+		<div class="card">
+          <img src="java.png" alt="Java Notes" class="card-image" />
+          <div class="card-body">
+            <h4>Java</h4>
+            <p>Detailed handwritten notes covering OOP concepts, syntax, and Java basics.</p>
+            <div class="price-row">
+              <span class="price">Coming Soon</span>
+              </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="python.png" alt="Python Notes" class="card-image" />
+          <div class="card-body">
+            <h4>Python</h4>
+            <p>Beginner-friendly notes with examples and explanations for Python learners.</p>
+            <div class="price-row">
+              <span class="price">Coming Soon</span>
+              </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+
+<section class="skillhub-section" id="pro-section">
+  <h2 class="skillhub-title">Skill Hub – Career Boost Courses</h2>
+
+  <div class="skillhub-container">
+
+    <!-- Card 1: Selenium -->
+    <div class="skill-card">
+      <div class="skill-img">
+        <img src="seleni.png" alt="Selenium with Java">
+      </div>
+      <div class="skill-content">
+        <h3>Selenium with Java</h3>
+        <p>Learn complete automation testing with Java, TestNG & frameworks.</p>
+        <div class="skill-price-row">
+          <span class="skill-price">Coming Soon</span>
+          </div>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="skill-card">
+      <div class="skill-img">
+        <img src="manual.png" alt="Manual Testing">
+      </div>
+      <div class="skill-content">
+        <h3>Manual Testing</h3>
+        <p>SDLC, STLC, defects, test plans, cases, reporting & QA basics.</p>
+        <div class="skill-price-row">
+          <span class="skill-price">Coming Soon</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="skill-card">
+      <div class="skill-img">
+        <img src="api.png" alt="API Testing">
+      </div>
+      <div class="skill-content">
+        <h3>API Testing</h3>
+        <p>Postman, Rest Assured, API automation, assertions & validation.</p>
+        <div class="skill-price-row">
+          <span class="skill-price">Coming Soon</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+
+  <!-- HOW IT WORKS -->
+  <section class="section" id="how">
+    <div class="container">
+      <h3 class="section-title">How It Works</h3>
+      <p class="section-sub">3 simple steps to get your handwritten notes instantly.</p>
+      <div class="how-grid">
+        <div class="how-card">
+          <h4>1. Choose Notes</h4>
+          <p>Select your preferred subject from our notes collection.</p>
+        </div>
+        <div class="how-card">
+          <h4>2. Pay Securely</h4>
+          <p>Make payment via UPI using Razorpay secure checkout.</p>
+        </div>
+        <div class="how-card">
+          <h4>3. Download Instantly</h4>
+          <p>Get instant access to your handwritten notes in PDF format.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- ABOUT -->
+<section class="section about" id="about">
+  <div class="container about-box">
+
+    <!-- ABOUT IMAGE -->
+    <div class="about-img">
+      <img src="about.png" alt="About LearnTechNotes">
+    </div>
+
+    <!-- ABOUT TEXT -->
+    <div class="about-content">
+      <h3 class="section-title">About LearnTechNotes</h3>
+
+      <p><strong>LearnTechNotes</strong> is a dedicated platform that provides 
+        <strong>high-quality handwritten programming notes</strong>, designed to make learning 
+        faster, simpler, and more practical for students and developers.</p>
+
+      <p>Our notes focus on <strong>concept clarity, real-world examples, and easy explanations</strong> 
+        so even complex programming topics become understandable.</p>
+
+      <p>We mainly cover <strong>programming-oriented content</strong> — not just theory, but hands-on 
+        concepts, syntax, code breakdowns, flowcharts, and practical problem-solving. Our goal 
+        is to help you build strong fundamentals in languages like C, C++, Java, Python, SQL, 
+        JavaScript, and more.</p>
+
+      <p>To support growth beyond college subjects, we’ve introduced the 
+        <strong>Skill Hub</strong> section, where you’ll find notes on <strong>industry-relevant tools</strong> 
+        such as Selenium with Java, Automation Testing, DevOps basics, Git/GitHub, and essential 
+        interview preparation resources.</p>
+
+      <p>These notes are designed for <strong>real-world relevance</strong>, helping you become job-ready 
+        with skills that companies actually look for.</p>
+
+      <p>At LearnTechNotes, we believe learning should be <strong>affordable, accessible, and effective</strong> — 
+        whether you're preparing for exams, improving your coding skills, or stepping into the tech industry.</p>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p>© <span id="year"></span> LearnTechNotes. All rights reserved.</p>
+    
+    <!-- Terms & Conditions link -->
+    <p style="margin-top: 8px;">
+      <a href="terms.html" style="color: #ffd700; font-weight: 600; text-decoration: none;">
+        Terms & Conditions
+      </a>
+    </p>
+
+    <div class="socials">
+      <a href="https://instagram.com/learntechnotes" target="_blank" class="insta-link">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#ffd700" viewBox="0 0 24 24" style="vertical-align:middle;margin-right:6px;">
+          <path d="M7 2C4.243 2 2 4.243 2 7v10c0 2.757 2.243 5 5 5h10c2.757 0 5-2.243 5-5V7c0-2.757-2.243-5-5-5H7zm0-2h10c3.866 0 7 3.134 7 7v10c0 3.866-3.134 7-7 7H7c-3.866 0-7-3.134-7-7V7c0-3.866 3.134-7 7-7zm5 7a5 5 0 100 10 5 5 0 000-10zm0 2a3 3 0 110 6 3 3 0 010-6zm6.5-3a1.5 1.5 0 11-3.001.001A1.5 1.5 0 0118.5 6z"/>
+        </svg>
+        <span style="color:#ffd700;font-weight:600;">LearnTechNotes</span>
+      </a>
+    </div>
+
+  </div>
+</footer>
+
+
+  <!-- CONTACT POPUP -->
+  <div id="contactPopup" style="display:none; position:fixed; inset:0; background:rgba(0,0,0,0.7); justify-content:center; align-items:center; z-index:999;">
+
+    <div style="background:#111; padding:20px; border-radius:12px; text-align:center; max-width:300px;">
+      <h4 style="color:#ffd700;">Contact Us</h4>
+      <p style="color:#bfbfbf;">Email us at <b>learntechnotes.official@gmail.com</b></p>
+      <button class="btn primary" onclick="window.location.href='mailto:learntechnotes@gmail.com'">Open Mail App</button>
+      <button class="btn ghost" onclick="copyEmail()">Copy Email</button>
+      <br><br>
+      <button class="btn small" onclick="closePopup()">Close</button>
+    </div>
+  </div>
+
+  <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+  <script src="script.js"></script>
+  <script>
+  function openContact(){
+    document.getElementById("contactPopup").style.display = "flex";
+  }
+  function closePopup(){
+    document.getElementById("contactPopup").style.display = "none";
+  }
+  function copyEmail(){
+    navigator.clipboard.writeText("learntechnotes@gmail.com");
+    alert("Email copied!");
+  }
+  </script>
+</body>
+</html>

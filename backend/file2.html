@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Development Notes Download</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #0d0d0d;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            max-width: 550px;
+            margin: 70px auto;
+            background: #111111;
+            padding: 40px;
+            border-radius: 18px;
+            text-align: center;
+            box-shadow: 0 0 25px rgba(255, 213, 0, 0.2);
+            border: 1px solid #222;
+        }
+
+        h1 {
+            font-size: 28px;
+            color: #ffd700;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 15px;
+            opacity: 0.9;
+            line-height: 1.4;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 25px;
+            background: #ffd700;
+            color: #000;
+            padding: 14px 22px;
+            border-radius: 10px;
+            font-size: 17px;
+            font-weight: bold;
+            text-decoration: none;
+            transition: 0.3s ease;
+        }
+
+        .btn:hover {
+            background: #fff;
+            color: #000;
+            transform: scale(1.04);
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            color: #777;
+            font-size: 13px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Payment Successful! 🎉</h1>
+        <p>Your payment has been verified.</p>
+        <p>You can now download your <b>Web Development Premium Notes</b>.</p>
+
+        <!-- 👉 Yaha apna real secure Google Drive link lagana -->
+        <a href="https://drive.google.com/file/d/1T7Sa8a6EPciOSycRFjGZE-Bs4AFDPBhE/view?usp=drivesdk" class="btn" download>
+            Download Web Dev Notes
+        </a>
+    </div>
+
+    <div class="footer">
+        © <span id="year"></span> LearnTechNotes
+    </div>
+
+    <script>
+        document.getElementById("year").innerText = new Date().getFullYear();
+    </script>
+
+</body>
+</html>
