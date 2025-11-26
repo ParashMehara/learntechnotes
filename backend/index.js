@@ -56,9 +56,12 @@ app.post("/verify-payment", (req, res) => {
         // Store which course this token belongs to
         tokens[token] = { expiry, course: courseName };
 
+        const downloadUrl = `https://learntechnotes.onrender.com/download/${token}`;
+        console.log("Download URL:", downloadUrl); // ✅ Added console log
+
         res.json({
             success: true,
-            downloadUrl: `https://learntechnotes.onrender.com/download/${token}`
+            downloadUrl
         });
 
     } else {
@@ -80,23 +83,22 @@ app.get("/download/:token", (req, res) => {
     const course = tokens[token].course;
 
     // Delete token after one use
-    delete tokens[token];
+		delete tokens[token];
 
     const __dirname = path.resolve();
 
     // COURSE-WISE SECURE LOCAL HTML FILE SERVING
     if (course === "C Language Notes") {
-    return res.redirect("https://drive.google.com/file/d/1A9TOmPqxol29Vo4NQxNMXZ4ym_XDEFPf/view?usp=drivesdk");
-	}
+        return res.redirect("https://drive.google.com/file/d/1A9TOmPqxol29Vo4NQxNMXZ4ym_XDEFPf/view?usp=drivesdk");
+    }
 
-	if (course === "Web Development Notes") {
-    return res.redirect("https://drive.google.com/file/d/1T7Sa8a6EPciOSycRFjGZE-Bs4AFDPBhE/view?usp=drivesdk");
-	}
+    if (course === "Web Development Notes") {
+        return res.redirect("https://drive.google.com/file/d/1T7Sa8a6EPciOSycRFjGZE-Bs4AFDPBhE/view?usp=drivesdk");
+    }
 
-
-	if (course === "Java Notes") {
-    return res.redirect("YOUR_JAVA_PDF_DRIVE_LINK");
-	}
+    if (course === "Java Notes") {
+        return res.redirect("YOUR_JAVA_PDF_DRIVE_LINK");
+    }
 
     res.status(400).send("Invalid course mapping");
 });
@@ -110,3 +112,7 @@ app.listen(PORT, () => {
     console.log(`Backend running on port ${PORT}`);
 });
 
+app.get("/ping", (req, res) => {
+    console.log("Ping received");
+    res.send("Backend awake");
+});
