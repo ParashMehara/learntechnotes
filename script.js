@@ -26,7 +26,7 @@ async function buyNow(courseName, amount) {
 
         handler: async function (response) {
 
-            const verifyResponse = await fetch("http://localhost:5000/verify-payment", {
+            const verifyResponse = await fetch("https://learntechnotes.onrender.com/verify-payment", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({
