@@ -6,7 +6,7 @@ function toggleMenu() {
 
 async function buyNow(courseName, amount) {
 
-    // Step 1 → Backend se order banao
+    
     const response = await fetch("https://learntechnotes.onrender.com/create-order", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -15,9 +15,9 @@ async function buyNow(courseName, amount) {
 
     const order = await response.json();
 
-    // Step 2 → Razorpay checkout open karo
+   
     const options = {
-        key: "rzp_test_RjWkVG2nH4bMzs",
+        key: "rzp_live_Rkofka2CCmU3R8",
         amount: order.amount,
         currency: "INR",
         name: "LearnTechNotes",
@@ -42,7 +42,7 @@ async function buyNow(courseName, amount) {
             if (verifyResult.success) {
                 alert("Payment successful! Downloading your notes...");
 
-                // Backend ke token-based secure route ko open karo
+                
                 window.location.href = verifyResult.downloadUrl;
 
             } else {
