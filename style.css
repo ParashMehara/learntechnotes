@@ -328,11 +328,50 @@ html {
 
 
 
-/* ABOUT & FOOTER */
-.about p{color:var(--muted)}
-.site-footer{padding:18px 0;background:#080808;border-top:1px solid rgba(255,215,0,0.04)}
-.footer-inner{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
-.socials a{color:var(--accent);text-decoration:none;font-weight:700}
+.site-footer {
+    background: #000;
+    padding: 50px 0;
+    color: #fff;
+    border-top: 1px solid rgba(255, 215, 0, 0.2);
+}
+
+.footer-inner-new {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 40px;
+    align-items: start;
+}
+
+.footer-col h3 {
+    color: #ffd700;
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+    text-shadow: 0 0 10px #ffd70077;
+}
+
+.footer-col a {
+    display: block;
+    margin-bottom: 8px;
+    color: #e6e6e6;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.25s;
+}
+
+.footer-col a:hover {
+    color: #fff;
+    text-shadow: 0 0 8px #ffd700;
+    transform: translateX(4px);
+}
+
+/* Instagram section remains same but enhanced */
+.socials {
+    margin-top: 15px;
+}
+
+
+
+
 
 /* small screens */
 @media (max-width:800px){
