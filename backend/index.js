@@ -95,7 +95,10 @@ app.get("/download/:token", (req, res) => {
     if (course === "Web Development Notes") {
         return res.redirect("https://drive.google.com/file/d/1T7Sa8a6EPciOSycRFjGZE-Bs4AFDPBhE/view?usp=drivesdk");
     }
-
+	
+	if (course === "SQL Notes") {
+        return res.redirect("https://drive.google.com/file/d/1qE5h6M9xx09mmV4P5tzylpdYztKLzY2m/view?usp=drive_link");
+	}
     if (course === "Java Notes") {
         return res.redirect("YOUR_JAVA_PDF_DRIVE_LINK");
     }
