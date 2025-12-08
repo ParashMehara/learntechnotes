@@ -1,0 +1,499 @@
+{
+	"mcqs":[
+  {
+    "question": "What does HTML stand for?",
+    "options": ["Hyper Trainer Marking Language", "Hyper Text Markup Language", "Hyperlinks Text Marking Level", "Hyper Tool Markup Level"],
+    "answer": "Hyper Text Markup Language"
+  },
+  {
+    "question": "Which tag is used to define the largest heading?",
+    "options": ["&lt;h6&gt;", "&lt;header&gt;", "&lt;h1&gt;", "&lt;heading&gt;"],
+    "answer": "&lt;h1&gt;"
+  },
+  {
+    "question": "Which tag is used to create a paragraph?",
+    "options": ["&lt;text&gt;", "&lt;p&gt;", "&lt;para&gt;", "&lt;pg&gt;"],
+    "answer": "&lt;p&gt;"
+  },
+  {
+    "question": "Which attribute adds a tooltip text?",
+    "options": ["alt", "tooltip", "title", "hint"],
+    "answer": "title"
+  },
+  {
+    "question": "Which tag is used for inserting a line break?",
+    "options": ["&lt;line&gt;", "&lt;br&gt;", "&lt;lb&gt;", "&lt;break&gt;"],
+    "answer": "&lt;br&gt;"
+  },
+  {
+    "question": "Which tag is used to insert an image?",
+    "options": ["&lt;image&gt;", "&lt;img&gt;", "&lt;pic&gt;", "&lt;src&gt;"],
+    "answer": "&lt;img&gt;"
+  },
+  {
+    "question": "Which attribute is used in &lt;img&gt; to specify image source?",
+    "options": ["href", "src", "link", "path"],
+    "answer": "src"
+  },
+  {
+    "question": "Which element represents bold text?",
+    "options": ["&lt;i&gt;", "&lt;b&gt;", "&lt;strong&gt;", "&lt;em&gt;"],
+    "answer": "&lt;b&gt;"
+  },
+  {
+    "question": "Which tag is used to create a hyperlink?",
+    "options": ["&lt;link&gt;", "&lt;a&gt;", "&lt;href&gt;", "&lt;url&gt;"],
+    "answer": "&lt;a&gt;"
+  },
+  {
+    "question": "Which attribute is used inside &lt;a&gt; for a link?",
+    "options": ["src", "link", "href", "ref"],
+    "answer": "href"
+  },
+  {
+    "question": "What is the correct HTML document structure?",
+    "options": ["html-head-body", "html-body-head", "!DOCTYPE-html-body-head", "!DOCTYPE-html-head-body"],
+    "answer": "!DOCTYPE-html-head-body"
+  },
+  {
+    "question": "Which tag is used to display a numbered list?",
+    "options": ["&lt;ul&gt;", "&lt;li&gt;", "&lt;ol&gt;", "&lt;num&gt;"],
+    "answer": "&lt;ol&gt;"
+  },
+  {
+    "question": "Which tag defines list items?",
+    "options": ["&lt;item&gt;", "&lt;list&gt;", "&lt;li&gt;", "&lt;l&gt;"],
+    "answer": "&lt;li&gt;"
+  },
+  {
+    "question": "Which tag represents a table?",
+    "options": ["&lt;tbl&gt;", "&lt;table&gt;", "&lt;tb&gt;", "&lt;grid&gt;"],
+    "answer": "&lt;table&gt;"
+  },
+  {
+    "question": "Which tag represents a table row?",
+    "options": ["&lt;row&gt;", "&lt;tr&gt;", "&lt;td&gt;", "&lt;th&gt;"],
+    "answer": "&lt;tr&gt;"
+  },
+  {
+    "question": "Which tag represents a table header?",
+    "options": ["&lt;tr&gt;", "&lt;td&gt;", "&lt;th&gt;", "&lt;header&gt;"],
+    "answer": "&lt;th&gt;"
+  },
+  {
+    "question": "Which tag represents a table cell?",
+    "options": ["&lt;td&gt;", "&lt;tr&gt;", "&lt;cell&gt;", "&lt;th&gt;"],
+    "answer": "&lt;td&gt;"
+  },
+  {
+    "question": "HTML comments begin with?",
+    "options": ["//", "#", "&lt;!--", "&lt;comment&gt;"],
+    "answer": "&lt;!--"
+  },
+  {
+    "question": "Which tag is used to define a dropdown?",
+    "options": ["&lt;input type='dropdown'&gt;", "&lt;select&gt;", "&lt;option&gt;", "&lt;dropdown&gt;"],
+    "answer": "&lt;select&gt;"
+  },
+  {
+    "question": "Which tag defines an option inside dropdown?",
+    "options": ["&lt;opt&gt;", "&lt;option&gt;", "&lt;select&gt;", "&lt;choose&gt;"],
+    "answer": "&lt;option&gt;"
+  },
+  {
+    "question": "Which form method hides data in URL?",
+    "options": ["GET", "POST", "SEND", "HIDDEN"],
+    "answer": "POST"
+  },
+  {
+    "question": "Which form attribute specifies target URL?",
+    "options": ["action", "href", "source", "submit"],
+    "answer": "action"
+  },
+  {
+    "question": "Which tag creates a checkbox?",
+    "options": ["&lt;input type='check'&gt;", "&lt;checkbox&gt;", "&lt;input type='checkbox'&gt;", "&lt;check&gt;"],
+    "answer": "&lt;input type='checkbox'&gt;"
+  },
+  {
+    "question": "Which tag creates a radio button?",
+    "options": ["&lt;input type='radio'&gt;", "&lt;radio&gt;", "&lt;rd&gt;", "&lt;input-radio&gt;"],
+    "answer": "&lt;input type='radio'&gt;"
+  },
+  {
+    "question": "HTML is a ______ language.",
+    "options": ["Programming", "Styling", "Markup", "Scripting"],
+    "answer": "Markup"
+  },
+  {
+    "question": "Which element defines the title shown on browser tab?",
+    "options": ["&lt;meta&gt;", "&lt;title&gt;", "&lt;header&gt;", "&lt;head&gt;"],
+    "answer": "&lt;title&gt;"
+  },
+  {
+    "question": "Which tag is used to add a horizontal line?",
+    "options": ["&lt;line&gt;", "&lt;hr&gt;", "&lt;hl&gt;", "&lt;border&gt;"],
+    "answer": "&lt;hr&gt;"
+  },
+  {
+    "question": "Which tag defines emphasized text?",
+    "options": ["&lt;b&gt;", "&lt;i&gt;", "&lt;em&gt;", "&lt;strong&gt;"],
+    "answer": "&lt;em&gt;"
+  },
+  {
+    "question": "Which tag defines strong important text?",
+    "options": ["&lt;i&gt;", "&lt;b&gt;", "&lt;strong&gt;", "&lt;imp&gt;"],
+    "answer": "&lt;strong&gt;"
+  },
+  {
+    "question": "Which tag defines an unordered list?",
+    "options": ["&lt;ol&gt;", "&lt;ul&gt;", "&lt;list&gt;", "&lt;unlist&gt;"],
+    "answer": "&lt;ul&gt;"
+  },
+  {
+    "question": "The tag that contains all metadata?",
+    "options": ["&lt;meta&gt;", "&lt;head&gt;", "&lt;title&gt;", "&lt;info&gt;"],
+    "answer": "&lt;head&gt;"
+  },
+  {
+    "question": "Which attribute controls text color?",
+    "options": ["color", "fgcolor", "text", "style"],
+    "answer": "style"
+  },
+  {
+    "question": "Which element is used for quotations?",
+    "options": ["&lt;quote&gt;", "&lt;q&gt;", "&lt;blockquote&gt;", "&lt;cite&gt;"],
+    "answer": "&lt;q&gt;"
+  },
+  {
+    "question": "Which tag is used to display a block-level quotation?",
+    "options": ["&lt;q&gt;", "&lt;blockquote&gt;", "&lt;quote&gt;", "&lt;bl&gt;"],
+    "answer": "&lt;blockquote&gt;"
+  },
+  {
+    "question": "Which tag embeds an external webpage?",
+    "options": ["&lt;embed&gt;", "&lt;iframe&gt;", "&lt;frame&gt;", "&lt;object&gt;"],
+    "answer": "&lt;iframe&gt;"
+  },
+  {
+    "question": "Which attribute is used to open link in a new tab?",
+    "options": ["window='_blank'", "tab='new'", "target='_blank'", "open='new'"],
+    "answer": "target='_blank'"
+  },
+  {
+    "question": "HTML files have extension?",
+    "options": [".htl", ".html", ".ht", ".hmtl"],
+    "answer": ".html"
+  },
+  {
+    "question": "Which tag defines a form?",
+    "options": ["&lt;form&gt;", "&lt;forms&gt;", "&lt;input&gt;", "&lt;submit&gt;"],
+    "answer": "&lt;form&gt;"
+  },
+  {
+    "question": "Which attribute makes a form field mandatory?",
+    "options": ["must", "required", "needed", "validate"],
+    "answer": "required"
+  },
+  {
+    "question": "The basic building block of HTML is?",
+    "options": ["Tags", "Functions", "Variables", "Links"],
+    "answer": "Tags"
+  },
+  {
+    "question": "Which tag contains the main content of page?",
+    "options": ["&lt;body&gt;", "&lt;main&gt;", "&lt;section&gt;", "&lt;content&gt;"],
+    "answer": "&lt;body&gt;"
+  },
+  {
+    "question": "Which semantic tag defines navigation links?",
+    "options": ["&lt;navigate&gt;", "&lt;nav&gt;", "&lt;links&gt;", "&lt;menu&gt;"],
+    "answer": "&lt;nav&gt;"
+  },
+  {
+    "question": "Which tag defines footer content?",
+    "options": ["&lt;footer&gt;", "&lt;bottom&gt;", "&lt;end&gt;", "&lt;foot&gt;"],
+    "answer": "&lt;footer&gt;"
+  },
+  {
+    "question": "Which tag defines a header section?",
+    "options": ["&lt;header&gt;", "&lt;top&gt;", "&lt;head&gt;", "&lt;heading&gt;"],
+    "answer": "&lt;header&gt;"
+  },
+  {
+    "question": "Which tag defines an input field?",
+    "options": ["&lt;field&gt;", "&lt;input&gt;", "&lt;text&gt;", "&lt;type&gt;"],
+    "answer": "&lt;input&gt;"
+  },
+  {
+    "question": "Which tag defines a label for form fields?",
+    "options": ["&lt;tag&gt;", "&lt;label&gt;", "&lt;heading&gt;", "&lt;text&gt;"],
+    "answer": "&lt;label&gt;"
+  },
+  {
+    "question": "Which element is used to group form controls?",
+    "options": ["&lt;fieldset&gt;", "&lt;group&gt;", "&lt;container&gt;", "&lt;formgroup&gt;"],
+    "answer": "&lt;fieldset&gt;"
+  },
+  {
+    "question": "Which tag defines a caption for a table?",
+    "options": ["&lt;title&gt;", "&lt;caption&gt;", "&lt;head&gt;", "&lt;label&gt;"],
+    "answer": "&lt;caption&gt;"
+  },
+  {
+    "question": "Which tag defines the document type?",
+    "options": ["doctype", "&lt;doctype&gt;", "!DOCTYPE html", "&lt;htmltype&gt;"],
+    "answer": "!DOCTYPE html"
+  },
+  {
+    "question": "Which attribute is used to uniquely identify an HTML element?",
+    "options": ["id", "class", "name", "key"],
+    "answer": "id"
+  },
+  {
+    "question": "Which HTML tag is used to define a client-side image map?",
+    "options": ["&lt;map&gt;", "&lt;area&gt;", "&lt;imgmap&gt;", "&lt;imagemap&gt;"],
+    "answer": "&lt;map&gt;"
+  },
+  {
+    "question": "Which tag defines multiple sections with collapsible content?",
+    "options": ["&lt;details&gt;", "&lt;summary&gt;", "&lt;section&gt;", "&lt;article&gt;"],
+    "answer": "&lt;details&gt;"
+  },
+  {
+    "question": "Which HTML tag displays a scalar measurement within a known range?",
+    "options": ["&lt;meter&gt;", "&lt;progress&gt;", "&lt;measure&gt;", "&lt;gauge&gt;"],
+    "answer": "&lt;meter&gt;"
+  },
+  {
+    "question": "Which tag is used for defining keyboard input?",
+    "options": ["&lt;kbd&gt;", "&lt;code&gt;", "&lt;var&gt;", "&lt;samp&gt;"],
+    "answer": "&lt;kbd&gt;"
+  },
+  {
+    "question": "Which element represents a self-contained quotation?",
+    "options": ["&lt;blockquote&gt;", "&lt;q&gt;", "&lt;cite&gt;", "&lt;quote&gt;"],
+    "answer": "&lt;blockquote&gt;"
+  },
+  {
+    "question": "Which tag is used for defining an abbreviation or acronym?",
+    "options": ["&lt;abbr&gt;", "&lt;acronym&gt;", "&lt;short&gt;", "&lt;cite&gt;"],
+    "answer": "&lt;abbr&gt;"
+  },
+  {
+    "question": "Which HTML tag defines contact information?",
+    "options": ["&lt;address&gt;", "&lt;contact&gt;", "&lt;info&gt;", "&lt;footer&gt;"],
+    "answer": "&lt;address&gt;"
+  },
+  {
+    "question": "Which HTML attribute specifies that an input field must be filled out?",
+    "options": ["required", "validate", "must", "mandatory"],
+    "answer": "required"
+  },
+  {
+    "question": "Which tag is used to embed a video?",
+    "options": ["&lt;video&gt;", "&lt;media&gt;", "&lt;movie&gt;", "&lt;vid&gt;"],
+    "answer": "&lt;video&gt;"
+  },
+  {
+    "question": "Which input type is used to select a color?",
+    "options": ["color", "picker", "hex", "palette"],
+    "answer": "color"
+  },
+  {
+    "question": "Which attribute is used to group radio buttons?",
+    "options": ["name", "group", "set", "radio"],
+    "answer": "name"
+  },
+  {
+    "question": "Which tag is used to define a caption for a figure?",
+    "options": ["&lt;figcaption&gt;", "&lt;caption&gt;", "&lt;label&gt;", "&lt;legend&gt;"],
+    "answer": "&lt;figcaption&gt;"
+  },
+  {
+    "question": "Which HTML tag defines a footer for a document or section?",
+    "options": ["&lt;footer&gt;", "&lt;bottom&gt;", "&lt;end&gt;", "&lt;section&gt;"],
+    "answer": "&lt;footer&gt;"
+  },
+  {
+    "question": "Which element is used to render text in italics for emphasis?",
+    "options": ["&lt;em&gt;", "&lt;i&gt;", "&lt;strong&gt;", "&lt;mark&gt;"],
+    "answer": "&lt;em&gt;"
+  },
+  {
+    "question": "Which tag defines a horizontal line?",
+    "options": ["&lt;hr&gt;", "&lt;line&gt;", "&lt;border&gt;", "&lt;break&gt;"],
+    "answer": "&lt;hr&gt;"
+  },
+  {
+    "question": "Which attribute specifies alternate text for an image?",
+    "options": ["alt", "title", "description", "caption"],
+    "answer": "alt"
+  },
+  {
+    "question": "Which HTML element is used to create a table row?",
+    "options": ["&lt;tr&gt;", "&lt;td&gt;", "&lt;th&gt;", "&lt;row&gt;"],
+    "answer": "&lt;tr&gt;"
+  },
+  {
+    "question": "Which tag defines a navigation section?",
+    "options": ["&lt;nav&gt;", "&lt;menu&gt;", "&lt;navigate&gt;", "&lt;section&gt;"],
+    "answer": "&lt;nav&gt;"
+  },
+  {
+    "question": "Which tag defines a description list?",
+    "options": ["&lt;dl&gt;", "&lt;dt&gt;", "&lt;dd&gt;", "&lt;list&gt;"],
+    "answer": "&lt;dl&gt;"
+  },
+  {
+    "question": "Which tag defines a term in a description list?",
+    "options": ["&lt;dt&gt;", "&lt;dd&gt;", "&lt;term&gt;", "&lt;title&gt;"],
+    "answer": "&lt;dt&gt;"
+  },
+  {
+    "question": "Which HTML element defines the title of a document?",
+    "options": ["&lt;title&gt;", "&lt;meta&gt;", "&lt;head&gt;", "&lt;header&gt;"],
+    "answer": "&lt;title&gt;"
+  },
+  {
+    "question": "Which element is used to group related form controls?",
+    "options": ["&lt;fieldset&gt;", "&lt;group&gt;", "&lt;formgroup&gt;", "&lt;section&gt;"],
+    "answer": "&lt;fieldset&gt;"
+  },
+  {
+    "question": "Which element provides a caption for &lt;fieldset&gt;?",
+    "options": ["&lt;legend&gt;", "&lt;label&gt;", "&lt;caption&gt;", "&lt;title&gt;"],
+    "answer": "&lt;legend&gt;"
+  },
+  {
+    "question": "Which attribute forces a file input to accept only images?",
+    "options": ["accept='image/*'", "type='image'", "filter='img'", "filetype='image'"],
+    "answer": "accept='image/*'"
+  },
+  {
+    "question": "Which element defines inline code?",
+    "options": ["&lt;code&gt;", "&lt;pre&gt;", "&lt;samp&gt;", "&lt;var&gt;"],
+    "answer": "&lt;code&gt;"
+  },
+  {
+    "question": "Which tag is used to mark important text?",
+    "options": ["&lt;strong&gt;", "&lt;mark&gt;", "&lt;b&gt;", "&lt;i&gt;"],
+    "answer": "&lt;strong&gt;"
+  },
+  {
+    "question": "Which tag defines deleted text?",
+    "options": ["&lt;del&gt;", "&lt;remove&gt;", "&lt;cut&gt;", "&lt;strike&gt;"],
+    "answer": "&lt;del&gt;"
+  },
+  {
+    "question": "Which HTML element defines inserted text?",
+    "options": ["&lt;ins&gt;", "&lt;add&gt;", "&lt;insert&gt;", "&lt;u&gt;"],
+    "answer": "&lt;ins&gt;"
+  },
+  {
+    "question": "Which attribute is used for inline CSS?",
+    "options": ["style", "css", "styles", "design"],
+    "answer": "style"
+  },
+  {
+    "question": "Which tag is used to embed an external webpage?",
+    "options": ["&lt;iframe&gt;", "&lt;embed&gt;", "&lt;object&gt;", "&lt;frame&gt;"],
+    "answer": "&lt;iframe&gt;"
+  },
+  {
+    "question": "Which tag defines emphasized text?",
+    "options": ["&lt;em&gt;", "&lt;i&gt;", "&lt;strong&gt;", "&lt;mark&gt;"],
+    "answer": "&lt;em&gt;"
+  },
+  {
+    "question": "Which HTML property controls the maximum allowed value for an input?",
+    "options": ["max", "limit", "top", "range"],
+    "answer": "max"
+  },
+  {
+    "question": "Which HTML element shows progress of a task?",
+    "options": ["&lt;progress&gt;", "&lt;meter&gt;", "&lt;status&gt;", "&lt;loading&gt;"],
+    "answer": "&lt;progress&gt;"
+  },
+  {
+    "question": "Which tag defines an ordered list?",
+    "options": ["&lt;ol&gt;", "&lt;ul&gt;", "&lt;li&gt;", "&lt;order&gt;"],
+    "answer": "&lt;ol&gt;"
+  },
+  {
+    "question": "Which attribute specifies placeholder text?",
+    "options": ["placeholder", "hint", "text", "sample"],
+    "answer": "placeholder"
+  },
+  {
+    "question": "Which HTML element defines a table header cell?",
+    "options": ["&lt;th&gt;", "&lt;td&gt;", "&lt;tr&gt;", "&lt;header&gt;"],
+    "answer": "&lt;th&gt;"
+  },
+  {
+    "question": "Which element groups inline elements without adding semantic meaning?",
+    "options": ["&lt;span&gt;", "&lt;div&gt;", "&lt;section&gt;", "&lt;inline&gt;"],
+    "answer": "&lt;span&gt;"
+  },
+  {
+    "question": "Which element is used for marking highlighted text?",
+    "options": ["&lt;mark&gt;", "&lt;strong&gt;", "&lt;b&gt;", "&lt;u&gt;"],
+    "answer": "&lt;mark&gt;"
+  },
+  {
+    "question": "Which tag specifies the visible content of a table?",
+    "options": ["&lt;tbody&gt;", "&lt;tfoot&gt;", "&lt;thead&gt;", "&lt;tablebody&gt;"],
+    "answer": "&lt;tbody&gt;"
+  },
+  {
+    "question": "Which tag is used to define the main content of a page?",
+    "options": ["&lt;main&gt;", "&lt;section&gt;", "&lt;content&gt;", "&lt;body&gt;"],
+    "answer": "&lt;main&gt;"
+  },
+  {
+    "question": "Which tag defines a label for an input element?",
+    "options": ["&lt;label&gt;", "&lt;caption&gt;", "&lt;tag&gt;", "&lt;inputlabel&gt;"],
+    "answer": "&lt;label&gt;"
+  },
+  {
+    "question": "Which element defines preformatted text?",
+    "options": ["&lt;pre&gt;", "&lt;code&gt;", "&lt;format&gt;", "&lt;mono&gt;"],
+    "answer": "&lt;pre&gt;"
+  },
+  {
+    "question": "Which attribute disables an input field?",
+    "options": ["disabled", "readonly", "hidden", "inactive"],
+    "answer": "disabled"
+  },
+  {
+    "question": "Which tag defines superscript text?",
+    "options": ["&lt;sup&gt;", "&lt;sub&gt;", "&lt;super&gt;", "&lt;up&gt;"],
+    "answer": "&lt;sup&gt;"
+  },
+  {
+    "question": "Which tag defines subscript text?",
+    "options": ["&lt;sub&gt;", "&lt;sup&gt;", "&lt;down&gt;", "&lt;small&gt;"],
+    "answer": "&lt;sub&gt;"
+  },
+  {
+    "question": "Which HTML element defines a clickable button?",
+    "options": ["&lt;button&gt;", "&lt;input type='button'&gt;", "&lt;click&gt;", "&lt;press&gt;"],
+    "answer": "&lt;button&gt;"
+  },
+  {
+    "question": "Which attribute specifies the URL for a form submission?",
+    "options": ["action", "method", "target", "src"],
+    "answer": "action"
+  },
+  {
+    "question": "Which attribute makes an input read-only?",
+    "options": ["readonly", "disabled", "static", "lock"],
+    "answer": "readonly"
+  },
+  {
+    "question": "Which HTML tag defines a table?",
+    "options": ["&lt;table&gt;", "&lt;tab&gt;", "&lt;grid&gt;", "&lt;chart&gt;"],
+    "answer": "&lt;table&gt;"
+  }
+]
+}

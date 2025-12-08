@@ -31,6 +31,7 @@
 
       <nav class="nav" id="navMenu">
         <a href="#" class="nav-link">Home</a>
+		<a href="#mcq-section" class="nav-link">MCQs</a>
         <a href="#courses" class="nav-link">Courses</a>
 		<a href="#pro-section" class="nav-link">Advanced Skills</a>
         <a href="#how" class="nav-link">How It Works</a>
@@ -45,16 +46,17 @@
   <section class="hero">
     <div class="container hero-inner">
       <div class="hero-left">
-        <h2>Learn <span>Programming</span> Faster with Clean Handwritten Notes</h2>
-        <p>From coding fundamentals to automation and interview prep—master skills the easy way.</p>
+        <h2>Learn <span>Programming</span> Faster with Notes & Interactive MCQs</h2>
+        <p>Master coding through clean handwritten notes, topic-wise quizzes, and exam-ready MCQs—all in one place.</p>
         <div class="hero-actions">
-          <a href="#courses" class="btn primary">Explore Notes</a>
+          <a href="#courses" class="btn primary">Start Learning</a>
           <a href="#about" class="btn ghost">Learn More</a>
         </div>
         <ul class="benefits">
           <li>✔ Easy-to-read handwritten notes</li>
-		  <li>✔ Practical concepts explained simply</li>
-          <li>✔ Affordable pricing</li>
+          <li>✔ 600+ interactive MCQs with instant results</li>
+          <li>✔ Practise concepts with real exam-style quizzes</li>
+          <li>✔ Affordable, fast and beginner-friendly</li>
           <li>✔ Instant access after payment</li>
         </ul>
       </div>
@@ -64,7 +66,113 @@
         </div>
       </div>
     </div>
-  </section>
+</section>
+
+
+<!-- MCQ Section Start -->
+<section id="mcq-section" style="
+    padding: 70px 20px;
+    background-color: #000;
+    text-align: center;
+    border-top: 2px solid rgba(255,215,0,0.4);
+    border-bottom: 2px solid rgba(255,215,0,0.2);
+    box-shadow: inset 0 10px 25px rgba(255,215,0,0.05);
+">
+
+    <!-- Glow separator -->
+    <div style="
+        height: 4px;
+        width: 180px;
+        margin: 0 auto 25px auto;
+        background: linear-gradient(90deg, transparent, #FFD700, transparent);
+        filter: blur(1px);
+        opacity: 0.7;
+    "></div>
+
+    <h2 style="
+        color: #FFD700;
+        font-size: 38px;
+        font-weight: 700;
+        margin-bottom: 15px;
+        letter-spacing: 1px;
+        text-shadow: 0 0 10px rgba(255,215,0,0.7);
+    ">
+        Test Your Knowledge with MCQs
+    </h2>
+
+    <p style="
+        color: #ccc;
+        font-size: 20px;
+        max-width: 700px;
+        margin: 0 auto 50px auto;
+        line-height: 1.6;
+    ">
+        Practice Free MCQs for C, C++, Java, Python, SQL & Web Development.<br>
+        Boost your skills with modern interactive quizzes.
+    </p>
+
+    <div style="
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 30px;
+    ">
+
+        <!-- Glass Card -->
+        <div style="
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,215,0,0.25);
+            padding: 30px 40px;
+            border-radius: 18px;
+            width: 350px;
+            backdrop-filter: blur(8px);
+            transition: 0.4s;
+            box-shadow: 0 0 20px rgba(255,215,0,0.15);
+        "
+        onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 0 25px rgba(255,215,0,0.5)';"
+        onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 0 20px rgba(255,215,0,0.15)';"
+        >
+
+            <h3 style="
+                color: #FFD700;
+                font-size: 26px;
+                font-weight: 600;
+                margin-bottom: 12px;
+            ">
+                Free MCQ Practice
+            </h3>
+
+            <p style="
+                color: #eee;
+                font-size: 17px;
+                margin-bottom: 25px;
+            ">
+                Attempt randomised MCQs from multiple subjects and improve your accuracy.
+            </p>
+
+            <a href="mcq.html" style="
+                display: inline-block;
+                padding: 15px 35px;
+                background-color: #FFD700;
+                color: #000;
+                font-size: 18px;
+                font-weight: bold;
+                border-radius: 10px;
+                text-decoration: none;
+                transition: 0.3s;
+            "
+            onmouseover="this.style.background='#fff'; this.style.boxShadow='0 0 15px #FFD700';"
+            onmouseout="this.style.background='#FFD700'; this.style.boxShadow='none';">
+                Start MCQ Practice
+            </a>
+
+        </div>
+
+    </div>
+</section>
+<!-- MCQ Section End -->
+
+
 
   <!-- COURSES -->
   <section class="section" id="courses">
@@ -79,7 +187,7 @@
             <p>Comprehensive handwritten notes covering all core C programming concepts.</p>
             <div class="price-row">
               <span class="price">₹49</span>
-              <button class="btn small primary" onclick="buyNow('C Language Notes', 99)">Buy & Download</button>
+              <button class="btn small primary" onclick="buyNow('C Language Notes', 49)">Buy & Download</button>
             </div>
           </div>
         </div>
@@ -90,7 +198,7 @@
             <p>Notes for HTML, CSS, and JavaScript – perfect for web dev beginners.</p>
             <div class="price-row">
               <span class="price">₹99</span>
-				<button class="btn small primary" onclick="buyNow('Web Development Notes', 149)">Buy & Download</button>
+				<button class="btn small primary" onclick="buyNow('Web Development Notes', 99)">Buy & Download</button>
             </div>
           </div>
         </div>
@@ -101,7 +209,7 @@
 			<p>Master database concepts, queries, joins, and real-world SQL commands for backend and analytics.</p>
 			<div class="price-row">
 			  <span class="price">₹49</span>
-              <button class="btn small primary" onclick="buyNow('SQL Notes', 99)">Buy & Download</button>
+              <button class="btn small primary" onclick="buyNow('SQL Notes', 49)">Buy & Download</button>
 			</div>
 		  </div>
 		</div>
@@ -186,6 +294,7 @@
     </div>
   </div>
 </section>
+
 
   <!-- HOW IT WORKS -->
   <section class="section" id="how">

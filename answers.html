@@ -1,0 +1,150 @@
+<!-- File: answers.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Answer Review</title>
+
+    <style>
+        body {
+            background: #000;
+            font-family: "Poppins", sans-serif;
+            color: #fff;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #ffdd00;
+            margin-bottom: 20px;
+            font-size: 32px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+        }
+
+        .card {
+            background: #111;
+            padding: 20px;
+            margin-bottom: 15px;
+            border-radius: 14px;
+            border: 1px solid #222;
+            box-shadow: 0 0 15px #000;
+            animation: fadeIn 0.6s ease-out;
+        }
+
+        .question {
+            font-size: 18px;
+            color: #ffdd00;
+        }
+
+        .correct {
+            color: #00ff85;
+            font-weight: bold;
+        }
+
+        .wrong {
+            color: #ff4444;
+            font-weight: bold;
+        }
+
+        .badge {
+            padding: 4px 10px;
+            border-radius: 6px;
+            font-size: 13px;
+            margin-left: 10px;
+        }
+
+        .badge-correct {
+            background: #00ff85;
+            color: #000;
+        }
+
+        .badge-wrong {
+            background: #ff4444;
+            color: #000;
+        }
+
+        .btn {
+            background: #ffdd00;
+            color: #000;
+            border: none;
+            padding: 12px 22px;
+            border-radius: 10px;
+            cursor: pointer;
+            margin: 20px auto;
+            display: block;
+            font-size: 16px;
+            width: 80%;
+            max-width: 280px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #fff;
+            color: #000;
+            transform: scale(1.07);
+            box-shadow: 0 0 10px #ffdd00;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Answer Review</h1>
+
+    <div class="container" id="answerList"></div>
+
+    <button class="btn" onclick="goHome()">Back to Home</button>
+
+    <script>
+        // Get saved answers from localStorage
+        const answers = JSON.parse(localStorage.getItem("quizAnswers")) || [];
+
+        const container = document.getElementById("answerList");
+
+        answers.forEach((item, index) => {
+            const card = document.createElement("div");
+            card.className = "card";
+
+            const isCorrect = item.userAnswer === item.correctAnswer;
+
+            card.innerHTML = `
+                <div class="question">
+                    Q${index + 1}. ${item.question}
+                </div>
+
+                <p>
+                    <strong>Your Answer:</strong> 
+                    <span class="${isCorrect ? "correct" : "wrong"}">${item.userAnswer}</span>
+                    ${isCorrect 
+                        ? '<span class="badge badge-correct">Correct</span>' 
+                        : '<span class="badge badge-wrong">Wrong</span>'
+                    }
+                </p>
+
+                <p>
+                    <strong>Correct Answer:</strong> 
+                    <span class="correct">${item.correctAnswer}</span>
+                </p>
+            `;
+
+            container.appendChild(card);
+        });
+
+        function goHome() {
+            window.location.href = "index.html";
+        }
+    </script>
+
+</body>
+</html>

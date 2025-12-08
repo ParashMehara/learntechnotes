@@ -1,0 +1,507 @@
+{
+	"mcqs":[
+  {
+    "question": "Which keyword is used to create a class in Java?",
+    "options": ["class", "define", "struct", "object"],
+    "answer": "class"
+  },
+  {
+    "question": "Which method is the entry point of a Java program?",
+    "options": ["start()", "main()", "run()", "execute()"],
+    "answer": "main()"
+  },
+  {
+    "question": "Which concept allows multiple methods with the same name but different parameters?",
+    "options": ["Inheritance", "Polymorphism", "Method Overloading", "Encapsulation"],
+    "answer": "Method Overloading"
+  },
+  {
+    "question": "Which data type is used to store true or false values?",
+    "options": ["int", "byte", "boolean", "char"],
+    "answer": "boolean"
+  },
+  {
+    "question": "Which OOP concept hides internal details and shows only essential features?",
+    "options": ["Abstraction", "Encapsulation", "Inheritance", "Polymorphism"],
+    "answer": "Abstraction"
+  },
+  {
+    "question": "Which keyword is used to inherit a class in Java?",
+    "options": ["implements", "extends", "inherits", "super"],
+    "answer": "extends"
+  },
+  {
+    "question": "Which access modifier makes members accessible only within the same class?",
+    "options": ["public", "private", "protected", "default"],
+    "answer": "private"
+  },
+  {
+    "question": "Which data type is used for decimal values in Java?",
+    "options": ["int", "float", "char", "boolean"],
+    "answer": "float"
+  },
+  {
+    "question": "Which operator is used for comparison in Java?",
+    "options": ["==", "=", "===", "<=>"],
+    "answer": "=="
+  },
+  {
+    "question": "Which method is used to start a thread in Java?",
+    "options": ["run()", "start()", "execute()", "main()"],
+    "answer": "start()"
+  },
+  {
+    "question": "Which keyword is used to prevent method overriding?",
+    "options": ["static", "final", "super", "private"],
+    "answer": "final"
+  },
+  {
+    "question": "Which exception occurs when dividing a number by zero?",
+    "options": ["NullPointerException", "ArithmeticException", "IOException", "NumberFormatException"],
+    "answer": "ArithmeticException"
+  },
+  {
+    "question": "Which keyword is used to create an object in Java?",
+    "options": ["class", "new", "make", "object"],
+    "answer": "new"
+  },
+  {
+    "question": "What is the size of int in Java?",
+    "options": ["8 bits", "16 bits", "32 bits", "64 bits"],
+    "answer": "32 bits"
+  },
+  {
+    "question": "Which class is the parent of all Java classes?",
+    "options": ["System", "Object", "Runtime", "Class"],
+    "answer": "Object"
+  },
+  {
+    "question": "Which collection does not allow duplicate elements?",
+    "options": ["List", "ArrayList", "Set", "Vector"],
+    "answer": "Set"
+  },
+  {
+    "question": "Which package contains basic Java classes?",
+    "options": ["java.base", "java.io", "java.lang", "java.util"],
+    "answer": "java.lang"
+  },
+  {
+    "question": "Which keyword is used to handle exceptions?",
+    "options": ["throw", "catch", "try", "finally"],
+    "answer": "try"
+  },
+  {
+    "question": "Which method converts a string to an integer?",
+    "options": ["Integer.value()", "Integer.parseInt()", "toInt()", "String.toInt()"],
+    "answer": "Integer.parseInt()"
+  },
+  {
+    "question": "Which loop guarantees at least one execution?",
+    "options": ["for", "while", "do-while", "foreach"],
+    "answer": "do-while"
+  },
+  {
+    "question": "Which OOP concept refers to creating new classes from existing ones?",
+    "options": ["Abstraction", "Inheritance", "Polymorphism", "Encapsulation"],
+    "answer": "Inheritance"
+  },
+  {
+    "question": "Which keyword is used to refer to the current object?",
+    "options": ["this", "super", "self", "current"],
+    "answer": "this"
+  },
+  {
+    "question": "Which method is used to compare two strings in Java?",
+    "options": ["compare()", "equals()", "match()", "same()"],
+    "answer": "equals()"
+  },
+  {
+    "question": "Which keyword is used to implement an interface?",
+    "options": ["extends", "inherits", "implements", "interface"],
+    "answer": "implements"
+  },
+  {
+    "question": "Which file extension is used for compiled Java files?",
+    "options": [".java", ".class", ".obj", ".exe"],
+    "answer": ".class"
+  },
+  {
+    "question": "Which keyword is used to inherit properties from a superclass?",
+    "options": ["super", "this", "extends", "inherits"],
+    "answer": "extends"
+  },
+  {
+    "question": "Which collection class stores elements in key-value pairs?",
+    "options": ["List", "Set", "Map", "Queue"],
+    "answer": "Map"
+  },
+  {
+    "question": "Which loop is best when the number of iterations is known?",
+    "options": ["while", "do-while", "for", "foreach"],
+    "answer": "for"
+  },
+  {
+    "question": "Which method is used to get the length of a string?",
+    "options": ["size()", "length()", "count()", "getLength()"],
+    "answer": "length()"
+  },
+  {
+    "question": "Which operator is used for logical AND in Java?",
+    "options": ["&", "&&", "and", "||"],
+    "answer": "&&"
+  },
+  {
+    "question": "Which process converts source code to bytecode?",
+    "options": ["Execution", "Compiling", "Parsing", "Interpreting"],
+    "answer": "Compiling"
+  },
+  {
+    "question": "Which exception is thrown when accessing an invalid array index?",
+    "options": ["NullPointerException", "ArrayIndexOutOfBoundsException", "ArithmeticException", "IllegalStateException"],
+    "answer": "ArrayIndexOutOfBoundsException"
+  },
+  {
+    "question": "Which keyword is used to manually throw an exception?",
+    "options": ["throws", "throw", "raise", "error"],
+    "answer": "throw"
+  },
+  {
+    "question": "Which wrapper class is used for converting a char?",
+    "options": ["Character", "Char", "CharWrapper", "String"],
+    "answer": "Character"
+  },
+  {
+    "question": "Which operator creates an object?",
+    "options": ["make", "create", "new", "alloc"],
+    "answer": "new"
+  },
+  {
+    "question": "Which keyword is used for memory cleanup suggestions?",
+    "options": ["free", "clean", "gc", "finalize"],
+    "answer": "finalize"
+  },
+  {
+    "question": "Which class is used to take input from the user?",
+    "options": ["Scanner", "Input", "Reader", "Stream"],
+    "answer": "Scanner"
+  },
+  {
+    "question": "Which method is used to stop the thread?",
+    "options": ["stop()", "kill()", "halt()", "terminate()"],
+    "answer": "stop()"
+  },
+  {
+    "question": "Which keyword is used to create an abstract class?",
+    "options": ["base", "virtual", "abstract", "class"],
+    "answer": "abstract"
+  },
+  {
+    "question": "What is the default value of boolean in Java?",
+    "options": ["true", "false", "null", "0"],
+    "answer": "false"
+  },
+  {
+    "question": "Which operator is used for string concatenation?",
+    "options": ["+", "&", "*", "&&"],
+    "answer": "+"
+  },
+  {
+    "question": "Which method is used to convert a string to lowercase?",
+    "options": ["toLower()", "lower()", "toLowerCase()", "lowercase()"],
+    "answer": "toLowerCase()"
+  },
+  {
+    "question": "Which access modifier allows visibility only within the same package?",
+    "options": ["public", "private", "protected", "default"],
+    "answer": "default"
+  },
+  {
+    "question": "Which interface is implemented for sorting objects?",
+    "options": ["Runnable", "Cloneable", "Comparable", "Serializable"],
+    "answer": "Comparable"
+  },
+  {
+    "question": "Which Java feature helps in code reusability?",
+    "options": ["Polymorphism", "Abstraction", "Inheritance", "Binding"],
+    "answer": "Inheritance"
+  },
+  {
+    "question": "Which keyword refers to the parent class?",
+    "options": ["this", "parent", "base", "super"],
+    "answer": "super"
+  },
+  {
+    "question": "Which keyword is used to import classes in Java?",
+    "options": ["use", "import", "include", "require"],
+    "answer": "import"
+  },
+  {
+    "question": "Which data type is used for single characters?",
+    "options": ["char", "string", "int", "byte"],
+    "answer": "char"
+  },
+  {
+    "question": "Which keyword defines a constant in Java?",
+    "options": ["final", "const", "static", "immutable"],
+    "answer": "final"
+  },
+  {
+    "question": "Which method is called automatically when an object is created?",
+    "options": ["init()", "constructor", "create()", "start()"],
+    "answer": "constructor"
+  },
+  {
+    "question": "Which of the following is not an OOP concept?",
+    "options": ["Encapsulation", "Polymorphism", "Compilation", "Inheritance"],
+    "answer": "Compilation"
+  },
+  {
+    "question": "Which method is used to start a thread?",
+    "options": ["run()", "start()", "execute()", "init()"],
+    "answer": "start()"
+  },
+  {
+    "question": "Which exception occurs when dividing by zero?",
+    "options": ["ArithmeticException", "IOException", "NullPointerException", "RuntimeException"],
+    "answer": "ArithmeticException"
+  },
+  {
+    "question": "Which keyword prevents method overriding?",
+    "options": ["final", "static", "sealed", "private"],
+    "answer": "final"
+  },
+  {
+    "question": "Which package is imported by default?",
+    "options": ["java.util", "java.io", "java.lang", "java.net"],
+    "answer": "java.lang"
+  },
+  {
+    "question": "Which collection does not allow duplicate elements?",
+    "options": ["List", "Set", "Map", "Vector"],
+    "answer": "Set"
+  },
+  {
+    "question": "Which method converts a string to an integer?",
+    "options": ["Integer.convert()", "Integer.toInt()", "Integer.parseInt()", "parse()"],
+    "answer": "Integer.parseInt()"
+  },
+  {
+    "question": "Which function is executed first when a Java program starts?",
+    "options": ["constructor", "main()", "init()", "start()"],
+    "answer": "main()"
+  },
+  {
+    "question": "Which keyword is used inside a switch statement?",
+    "options": ["when", "switch", "case", "label"],
+    "answer": "case"
+  },
+  {
+    "question": "Which operator is used to compare two values?",
+    "options": ["=", "==", "===", "!="],
+    "answer": "=="
+  },
+  {
+    "question": "Which memory area stores objects?",
+    "options": ["Stack", "Heap", "Registers", "Static memory"],
+    "answer": "Heap"
+  },
+  {
+    "question": "Which method checks if a string starts with a given prefix?",
+    "options": ["startsWith()", "begin()", "prefix()", "checkStart()"],
+    "answer": "startsWith()"
+  },
+  {
+    "question": "Which statement is used to jump out of a loop?",
+    "options": ["exit", "break", "stop", "quit"],
+    "answer": "break"
+  },
+  {
+    "question": "Which concept allows the same method name in different classes?",
+    "options": ["Overloading", "Overriding", "Encapsulation", "Abstraction"],
+    "answer": "Overriding"
+  },
+  {
+    "question": "Which keyword is used to declare an interface?",
+    "options": ["interface", "class", "abstract", "protocol"],
+    "answer": "interface"
+  },
+  {
+    "question": "Which method is used to find the absolute value of a number?",
+    "options": ["Math.absolute()", "Math.abs()", "Math.value()", "Math.absVal()"],
+    "answer": "Math.abs()"
+  },
+  {
+    "question": "Which type of class cannot be instantiated?",
+    "options": ["Concrete class", "Main class", "Abstract class", "Final class"],
+    "answer": "Abstract class"
+  },
+  {
+    "question": "Which keyword is used for multiple inheritance of interfaces?",
+    "options": ["using", "extends", "implements", "inherits"],
+    "answer": "implements"
+  },
+  {
+    "question": "Which block is always executed?",
+    "options": ["try", "catch", "finally", "throw"],
+    "answer": "finally"
+  },
+  {
+    "question": "Which collection guarantees insertion order?",
+    "options": ["HashSet", "TreeSet", "LinkedHashSet", "Set"],
+    "answer": "LinkedHashSet"
+  },
+
+  {
+    "question": "Which keyword is used to declare constants inside interfaces?",
+    "options": ["const", "static final", "immutable", "final only"],
+    "answer": "static final"
+  },
+  {
+    "question": "Which term refers to the process of wrapping data and methods?",
+    "options": ["Encapsulation", "Abstraction", "Polymorphism", "Binding"],
+    "answer": "Encapsulation"
+  },
+  {
+    "question": "Which exception occurs when calling a method on a null object?",
+    "options": ["ArithmeticException", "NullPointerException", "IOException", "ClassCastException"],
+    "answer": "NullPointerException"
+  },
+  {
+    "question": "Which method removes whitespace from both sides of a string?",
+    "options": ["trim()", "strip()", "clean()", "removeSpaces()"],
+    "answer": "trim()"
+  },
+  {
+    "question": "Which keyword forces garbage collection?",
+    "options": ["gc()", "collect()", "System.gc()", "free()"],
+    "answer": "System.gc()"
+  },
+  {
+    "question": "Which method checks array length?",
+    "options": ["length()", "size()", "count()", "getLength()"],
+    "answer": "length"
+  },
+  {
+    "question": "Which class is the parent of all Java classes?",
+    "options": ["Class", "Object", "Runtime", "Base"],
+    "answer": "Object"
+  },
+  {
+    "question": "Which keyword makes a variable belong to the class, not object?",
+    "options": ["static", "global", "constant", "public"],
+    "answer": "static"
+  },
+  {
+    "question": "Which operator is used for OR operation?",
+    "options": ["||", "|", "or", "??"],
+    "answer": "||"
+  },
+  {
+    "question": "Which type of method belongs to the class rather than instance?",
+    "options": ["Public", "Private", "Static", "Final"],
+    "answer": "Static"
+  },
+
+  {
+    "question": "Which class is used for file handling?",
+    "options": ["File", "Files", "Document", "Writer"],
+    "answer": "File"
+  },
+  {
+    "question": "Which collection allows key-value pairs with unique keys?",
+    "options": ["Map", "List", "Set", "Queue"],
+    "answer": "Map"
+  },
+  {
+    "question": "Which keyword is used inside a constructor to call another constructor?",
+    "options": ["super()", "this()", "parent()", "init()"],
+    "answer": "this()"
+  },
+  {
+    "question": "Which type of variable is shared among all objects?",
+    "options": ["local", "instance", "static", "parameter"],
+    "answer": "static"
+  },
+  {
+    "question": "Which exception is checked?",
+    "options": ["IOException", "ArithmeticException", "NullPointerException", "RuntimeException"],
+    "answer": "IOException"
+  },
+  {
+    "question": "Which method checks if a string contains a substring?",
+    "options": ["has()", "contains()", "includes()", "search()"],
+    "answer": "contains()"
+  },
+  {
+    "question": "Which keyword defines a subclass?",
+    "options": ["extends", "implements", "inherits", "child"],
+    "answer": "extends"
+  },
+  {
+    "question": "Which keyword defines an enumeration?",
+    "options": ["enum", "enumeration", "list", "constant"],
+    "answer": "enum"
+  },
+  {
+    "question": "Which loop executes at least once?",
+    "options": ["for", "while", "do-while", "foreach"],
+    "answer": "do-while"
+  },
+  {
+    "question": "Which method pauses a thread?",
+    "options": ["sleep()", "wait()", "stop()", "delay()"],
+    "answer": "sleep()"
+  },
+
+  {
+    "question": "Which operator is used for casting?",
+    "options": ["##", "()", "cast", "::"],
+    "answer": "()"
+  },
+  {
+    "question": "Which data type is used for decimal numbers?",
+    "options": ["int", "float", "char", "boolean"],
+    "answer": "float"
+  },
+  {
+    "question": "Which method checks class information at runtime?",
+    "options": ["getClass()", "getInfo()", "ClassName()", "info()"],
+    "answer": "getClass()"
+  },
+  {
+    "question": "Which keyword is used to exit from a method?",
+    "options": ["stop", "exit", "return", "quit"],
+    "answer": "return"
+  },
+  {
+    "question": "Which method compares two strings?",
+    "options": ["compare()", "equals()", "match()", "isEqual()"],
+    "answer": "equals()"
+  },
+  {
+    "question": "Which concept allows object representing many forms?",
+    "options": ["Inheritance", "Encapsulation", "Polymorphism", "Abstraction"],
+    "answer": "Polymorphism"
+  },
+  {
+    "question": "Which exception is thrown for bad typecasting?",
+    "options": ["NullPointerException", "ClassCastException", "IOException", "ArithmeticException"],
+    "answer": "ClassCastException"
+  },
+  {
+    "question": "Which term refers to binding method call to function body at runtime?",
+    "options": ["Early binding", "Late binding", "Static binding", "Compile-time binding"],
+    "answer": "Late binding"
+  },
+  {
+    "question": "Which method converts string to uppercase?",
+    "options": ["upper()", "UpperCase()", "toUpper()", "toUpperCase()"],
+    "answer": "toUpperCase()"
+  },
+  {
+    "question": "Which keyword is used for method overloading?",
+    "options": ["overload", "override", "same name with different parameters", "duplicate"],
+    "answer": "same name with different parameters"
+  }
+]
+}

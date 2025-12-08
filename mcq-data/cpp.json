@@ -1,0 +1,310 @@
+{
+"mcqs":[
+    {
+      "question": "Which of the following is used to create a reference variable in C++?",
+      "options": ["&", "*", "%", "#"],
+      "answer": "&"
+    },
+    {
+      "question": "Which OOP concept binds data and functions together?",
+      "options": ["Polymorphism", "Inheritance", "Encapsulation", "Abstraction"],
+      "answer": "Encapsulation"
+    },
+    {
+      "question": "Which keyword is used to define a class in C++?",
+      "options": ["struct", "object", "class", "type"],
+      "answer": "class"
+    },
+    {
+      "question": "What is the default access specifier for class members in C++?",
+      "options": ["public", "private", "protected", "global"],
+      "answer": "private"
+    },
+    {
+      "question": "Which of the following is used to dynamically allocate memory in C++?",
+      "options": ["malloc", "calloc", "new", "alloc"],
+      "answer": "new"
+    },
+    {
+      "question": "Which operator is used to access class members using an object?",
+      "options": [".", "->", "::", ":"],
+      "answer": "."
+    },
+    {
+      "question": "Which operator is overloaded by default in C++?",
+      "options": ["+", "=", "-", "=="],
+      "answer": "="
+    },
+    {
+      "question": "Which feature allows the same function name to be used with different parameter types?",
+      "options": ["Inheritance", "Polymorphism", "Abstraction", "Encapsulation"],
+      "answer": "Polymorphism"
+    },
+    {
+      "question": "What is the correct syntax to declare a constructor?",
+      "options": ["void constructor()", "constructor()", "~constructor()", "int constructor()"],
+      "answer": "constructor()"
+    },
+    {
+      "question": "Which symbol is used for single-line comments in C++?",
+      "options": ["/*", "//", "#", "&lt!--"],
+      "answer": "//"
+    },
+
+    {
+      "question": "Which header file is used for input and output in C++?",
+      "options": ["&lt;stdio.h&gt;", "&lt;iostream&gt;", "&lt;input.h&gt;", "&lt;ctype.h&gt;"],
+      "answer": "&lt;iostream&gt;"
+    },
+    {
+      "question": "Which keyword is used to inherit a class?",
+      "options": ["parent", "inherits", "extends", ":"],
+      "answer": ":"
+    },
+    {
+      "question": "Which operator is used with pointers to access members of a class?",
+      "options": [".", "->", "*", ":"],
+      "answer": "->"
+    },
+    {
+      "question": "Which type of function cannot have a return type?",
+      "options": ["Destructor", "Constructor", "Both", "None"],
+      "answer": "Destructor"
+    },
+    {
+      "question": "Which of the following is used to deallocate memory in C++?",
+      "options": ["free", "delete", "remove", "destroy"],
+      "answer": "delete"
+    },
+    {
+      "question": "What is the size of a boolean in C++?",
+      "options": ["1 byte", "2 bytes", "4 bytes", "Depends on compiler"],
+      "answer": "1 byte"
+    },
+    {
+      "question": "Which of the following allows using one class inside another?",
+      "options": ["Nested class", "Subclass", "Template", "Macro"],
+      "answer": "Nested class"
+    },
+    {
+      "question": "Which keyword prevents a class from being inherited?",
+      "options": ["stop", "final", "sealed", "constant"],
+      "answer": "final"
+    },
+    {
+      "question": "Which concept refers to hiding internal details?",
+      "options": ["Abstraction", "Polymorphism", "Encapsulation", "Overloading"],
+      "answer": "Abstraction"
+    },
+    {
+      "question": "Which loop is guaranteed to execute at least once?",
+      "options": ["for", "while", "do-while", "switch"],
+      "answer": "do-while"
+    },
+
+    {
+      "question": "Which C++ feature supports code reusability?",
+      "options": ["Array", "Loop", "Inheritance", "Pointer"],
+      "answer": "Inheritance"
+    },
+    {
+      "question": "Which keyword is used to define a constant variable?",
+      "options": ["let", "const", "constant", "static"],
+      "answer": "const"
+    },
+    {
+      "question": "Which C++ function is used to return the length of a string?",
+      "options": ["length()", "size()", "count()", "len()"],
+      "answer": "length()"
+    },
+    {
+      "question": "Which operator is used for scope resolution?",
+      "options": ["::", "->", ".", ":"],
+      "answer": "::"
+    },
+    {
+      "question": "Which type of inheritance involves multiple base classes?",
+      "options": ["Single", "Multiple", "Multilevel", "Hybrid"],
+      "answer": "Multiple"
+    },
+    {
+      "question": "What is the correct syntax of a destructor?",
+      "options": ["~ClassName()", "~Class()", "~Destructor()", "Destructor()"],
+      "answer": "~ClassName()"
+    },
+    {
+      "question": "Which allows passing arguments by reference?",
+      "options": ["*", "&", "%", "$"],
+      "answer": "&"
+    },
+    {
+      "question": "Which header is used for strings?",
+      "options": ["&lt;string.h&gt;", "&lt;strings&gt;", "&lt;string&gt;", "&lt;str&gt;"],
+      "answer": "&lt;string&gt;"
+    },
+    {
+      "question": "Which function allocates memory that is automatically deleted?",
+      "options": ["malloc", "new", "auto", "smart pointer"],
+      "answer": "smart pointer"
+    },
+    {
+      "question": "Which keyword is used to handle exceptions?",
+      "options": ["exception", "throw", "try", "catch"],
+      "answer": "try"
+    },
+
+    {
+      "question": "Which block handles exceptions?",
+      "options": ["try", "throw", "catch", "final"],
+      "answer": "catch"
+    },
+    {
+      "question": "Which feature resolves function call conflicts using names?",
+      "options": ["Polymorphism", "Namespace", "Class", "Struct"],
+      "answer": "Namespace"
+    },
+    {
+      "question": "Which function runs automatically when an object is created?",
+      "options": ["Destructor", "Constructor", "Main", "Init"],
+      "answer": "Constructor"
+    },
+    {
+      "question": "Which symbol is used for pointer declaration?",
+      "options": ["&", "*", "%", "#"],
+      "answer": "*"
+    },
+    {
+      "question": "Which operator gives the memory address of a variable?",
+      "options": ["*", "&", "->", "."],
+      "answer": "&"
+    },
+    {
+      "question": "Which datatype stores true or false?",
+      "options": ["int", "bool", "char", "float"],
+      "answer": "bool"
+    },
+    {
+      "question": "Which defines a template?",
+      "options": ["template&lt;class T&gt;", "template T", "define<T>", "class template"],
+      "answer": "template&lt;class T&gt;"
+    },
+    {
+      "question": "Which function ends the program?",
+      "options": ["exit()", "stop()", "end()", "quit()"],
+      "answer": "exit()"
+    },
+    {
+      "question": "Which file contains class function definitions?",
+      "options": [".cpp", ".h", ".txt", ".cs"],
+      "answer": ".cpp"
+    },
+    {
+      "question": "Which function is entry point in C++?",
+      "options": ["start()", "run()", "main()", "execute()"],
+      "answer": "main()"
+    },
+
+    {
+      "question": "Which type of polymorphism occurs at compile-time?",
+      "options": ["Runtime", "Static", "Dynamic", "Late binding"],
+      "answer": "Static"
+    },
+    {
+      "question": "Which keyword creates an object?",
+      "options": ["object", "class", "new", "create"],
+      "answer": "new"
+    },
+    {
+      "question": "Which is not a valid data type?",
+      "options": ["int", "float", "real", "char"],
+      "answer": "real"
+    },
+    {
+      "question": "Which casts one data type to another?",
+      "options": ["convert", "static_cast", "pass", "new"],
+      "answer": "static_cast"
+    },
+    {
+      "question": "Which allows accessing private members of a class?",
+      "options": ["friend keyword", "object", "constructor", "namespace"],
+      "answer": "friend keyword"
+    },
+    {
+      "question": "Which statement terminates a loop?",
+      "options": ["stop", "break", "exit", "end"],
+      "answer": "break"
+    },
+    {
+      "question": "Which operator is overloaded for indexing?",
+      "options": ["()", "[]", "<>", "--"],
+      "answer": "[]"
+    },
+    {
+      "question": "Which prevents overriding a function?",
+      "options": ["final", "static", "sealed", "private"],
+      "answer": "final"
+    },
+    {
+      "question": "Which is executed after try and catch?",
+      "options": ["exit", "finally", "throw", "return"],
+      "answer": "finally"
+    },
+    {
+      "question": "Which defines a constant pointer?",
+      "options": ["int *p", "int *const p", "int const p", "int p*"],
+      "answer": "int *const p"
+    },
+
+    {
+      "question": "Which operator is used for multiplication?",
+      "options": ["*", "%", "#", "@"],
+      "answer": "*"
+    },
+    {
+      "question": "Which type of function calls itself?",
+      "options": ["Inline", "Virtual", "Recursive", "Friend"],
+      "answer": "Recursive"
+    },
+    {
+      "question": "Which feature allows function with same name but different parameters?",
+      "options": ["Overloading", "Overriding", "Inheritance", "Constructor"],
+      "answer": "Overloading"
+    },
+    {
+      "question": "Which is used to define inline functions?",
+      "options": ["inline", "static", "public", "global"],
+      "answer": "inline"
+    },
+    {
+      "question": "Which pointer contains NULL value?",
+      "options": ["Void pointer", "Null pointer", "Wild pointer", "Smart pointer"],
+      "answer": "Null pointer"
+    },
+    {
+      "question": "Which specifier makes variable value unchangeable?",
+      "options": ["static", "final", "const", "define"],
+      "answer": "const"
+    },
+    {
+      "question": "Which operator accesses static members?",
+      "options": [".", "->", "::", ":"],
+      "answer": "::"
+    },
+    {
+      "question": "Which keyword is used to return control to calling function?",
+      "options": ["quit", "return", "break", "stop"],
+      "answer": "return"
+    },
+    {
+      "question": "Which is a member access operator?",
+      "options": ["::", ".", "->", "="],
+      "answer": "."
+    },
+    {
+      "question": "Which represents runtime polymorphism?",
+      "options": ["Function overloading", "Operator overloading", "Virtual functions", "Inline functions"],
+      "answer": "Virtual functions"
+    }
+  ]
+}
+

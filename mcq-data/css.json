@@ -1,0 +1,495 @@
+{
+	"mcqs":[
+  {
+    "question": "Which CSS property is used to change the text color of an element?",
+    "options": ["color", "text-color", "font-color", "foreground"],
+    "answer": "color"
+  },
+  {
+    "question": "Which property is used to change the background color?",
+    "options": ["background-color", "bgcolor", "color-background", "background-style"],
+    "answer": "background-color"
+  },
+  {
+    "question": "Which CSS property controls the size of text?",
+    "options": ["font-size", "text-size", "size", "font-style"],
+    "answer": "font-size"
+  },
+  {
+    "question": "Which CSS selector targets an element by its id?",
+    "options": ["#idname", ".idname", "id idname", "*idname"],
+    "answer": "#idname"
+  },
+  {
+    "question": "Which CSS selector selects elements by class?",
+    "options": [".classname", "#classname", "*classname", "classname"],
+    "answer": ".classname"
+  },
+  {
+    "question": "Which property is used to make text bold?",
+    "options": ["font-weight", "font-style", "bold", "text-bold"],
+    "answer": "font-weight"
+  },
+  {
+    "question": "Which CSS property changes the font family?",
+    "options": ["font-family", "font-type", "font-style", "font-name"],
+    "answer": "font-family"
+  },
+  {
+    "question": "Which CSS unit is relative to the root font size?",
+    "options": ["rem", "em", "px", "%"],
+    "answer": "rem"
+  },
+  {
+    "question": "Which CSS property is used to create space inside an element?",
+    "options": ["padding", "margin", "border", "spacing"],
+    "answer": "padding"
+  },
+  {
+    "question": "Which property creates space outside an element?",
+    "options": ["margin", "padding", "border", "gap"],
+    "answer": "margin"
+  },
+  {
+    "question": "Which CSS property sets the width of an element?",
+    "options": ["width", "element-width", "size-width", "block-width"],
+    "answer": "width"
+  },
+  {
+    "question": "Which property is used to set the height of an element?",
+    "options": ["height", "element-height", "box-height", "block-height"],
+    "answer": "height"
+  },
+  {
+    "question": "Which property controls left and right alignment of text?",
+    "options": ["text-align", "align-text", "text-position", "text-style"],
+    "answer": "text-align"
+  },
+  {
+    "question": "Which CSS property adds a shadow to text?",
+    "options": ["text-shadow", "shadow-text", "font-shadow", "shadow"],
+    "answer": "text-shadow"
+  },
+  {
+    "question": "Which CSS property adds a shadow to a box?",
+    "options": ["box-shadow", "shadow-box", "element-shadow", "border-shadow"],
+    "answer": "box-shadow"
+  },
+  {
+    "question": "Which property is used to display elements in a row or column?",
+    "options": ["flex-direction", "display-direction", "direction-flex", "layout-flex"],
+    "answer": "flex-direction"
+  },
+  {
+    "question": "Which CSS property activates a flex container?",
+    "options": ["display: flex", "flex: display", "flex: block", "display: block-flex"],
+    "answer": "display: flex"
+  },
+  {
+    "question": "Which property is used to align items along the main axis in flexbox?",
+    "options": ["justify-content", "align-items", "justify-items", "align-content"],
+    "answer": "justify-content"
+  },
+  {
+    "question": "Which property aligns items along the cross axis in flexbox?",
+    "options": ["align-items", "justify-content", "align-content", "flex-align"],
+    "answer": "align-items"
+  },
+  {
+    "question": "Which CSS property is used to animate elements?",
+    "options": ["animation", "transition", "animate", "motion"],
+    "answer": "animation"
+  },
+  {
+    "question": "Which property sets how long an animation takes to complete one cycle?",
+    "options": ["animation-duration", "animation-time", "duration", "animate-duration"],
+    "answer": "animation-duration"
+  },
+  {
+    "question": "Which property is used to delay the start of an animation?",
+    "options": ["animation-delay", "delay-animation", "animate-delay", "animation-wait"],
+    "answer": "animation-delay"
+  },
+  {
+    "question": "Which property specifies the name of the keyframes to use?",
+    "options": ["animation-name", "animation-key", "name-animation", "keyframes"],
+    "answer": "animation-name"
+  },
+  {
+    "question": "Which rule defines keyframes in CSS?",
+    "options": ["@keyframes", "@animation", "@frames", "@animate"],
+    "answer": "@keyframes"
+  },
+  {
+    "question": "Which property changes the visibility of an element?",
+    "options": ["visibility", "display", "opacity", "show"],
+    "answer": "visibility"
+  },
+  {
+    "question": "Which property completely removes an element from the layout?",
+    "options": ["display: none", "visibility: hidden", "opacity: 0", "remove: element"],
+    "answer": "display: none"
+  },
+  {
+    "question": "Which position value places elements relative to their normal position?",
+    "options": ["relative", "absolute", "fixed", "static"],
+    "answer": "relative"
+  },
+  {
+    "question": "Which property positions an element relative to the browser window?",
+    "options": ["position: fixed", "position: absolute", "position: static", "position: sticky"],
+    "answer": "position: fixed"
+  },
+  {
+    "question": "Which property sticks an element when scrolling?",
+    "options": ["position: sticky", "position: fixed", "position: absolute", "position: float"],
+    "answer": "position: sticky"
+  },
+  {
+    "question": "Which CSS layout uses rows and columns?",
+    "options": ["CSS Grid", "Flexbox", "Float Layout", "Inline Layout"],
+    "answer": "CSS Grid"
+  },
+  {
+    "question": "Which property defines grid columns?",
+    "options": ["grid-template-columns", "grid-columns", "columns-grid", "grid-template"],
+    "answer": "grid-template-columns"
+  },
+  {
+    "question": "Which property defines grid rows?",
+    "options": ["grid-template-rows", "grid-rows", "rows-grid", "grid-template"],
+    "answer": "grid-template-rows"
+  },
+  {
+    "question": "Which property sets the gap between grid items?",
+    "options": ["grid-gap", "gap", "spacing-grid", "grid-space"],
+    "answer": "gap"
+  },
+  {
+    "question": "Which property is used to float an element?",
+    "options": ["float", "position", "align", "flow"],
+    "answer": "float"
+  },
+  {
+    "question": "Which CSS property clears floated elements?",
+    "options": ["clear", "float-clear", "stop-float", "float-stop"],
+    "answer": "clear"
+  },
+  {
+    "question": "Which property is used for rounded corners?",
+    "options": ["border-radius", "corner-radius", "round-border", "radius"],
+    "answer": "border-radius"
+  },
+  {
+    "question": "Which property controls the opacity of an element?",
+    "options": ["opacity", "visibility", "alpha", "transparent"],
+    "answer": "opacity"
+  },
+  {
+    "question": "Which CSS selector selects all elements?",
+    "options": ["*", "?", "all", "element"],
+    "answer": "*"
+  },
+  {
+    "question": "Which selector selects direct child elements?",
+    "options": ["parent > child", "parent child", "parent + child", "parent ~ child"],
+    "answer": "parent > child"
+  },
+  {
+    "question": "Which selector selects elements that are descendants?",
+    "options": ["A B", "A > B", "A + B", "A ~ B"],
+    "answer": "A B"
+  },
+  {
+    "question": "Which selector selects the next sibling element?",
+    "options": ["A + B", "A > B", "A B", "A ~ B"],
+    "answer": "A + B"
+  },
+  {
+    "question": "Which selector selects all siblings after an element?",
+    "options": ["A ~ B", "A + B", "A B", "A > B"],
+    "answer": "A ~ B"
+  },
+  {
+    "question": "Which pseudo-class selects the first child?",
+    "options": [":first-child", ":first", ":child-first", ":child"],
+    "answer": ":first-child"
+  },
+  {
+    "question": "Which pseudo-class selects the last child?",
+    "options": [":last-child", ":end-child", ":child-last", ":last"],
+    "answer": ":last-child"
+  },
+  {
+    "question": "Which pseudo-class selects when the mouse pointer hovers over an element?",
+    "options": [":hover", ":active", ":focus", ":target"],
+    "answer": ":hover"
+  },
+  {
+    "question": "Which pseudo-class activates when clicking an element?",
+    "options": [":active", ":hover", ":click", ":pressed"],
+    "answer": ":active"
+  },
+  {
+    "question": "Which pseudo-class is used when an element is focused?",
+    "options": [":focus", ":active", ":hover", ":checked"],
+    "answer": ":focus"
+  },
+  {
+    "question": "Which property sets the border of an element?",
+       "options": ["border", "outline", "border-style", "border-width"],
+       "answer": "border"
+  },
+  {
+    "question": "Which property sets spacing between inline elements such as words?",
+    "options": ["word-spacing", "letter-spacing", "text-spacing", "spacing-word"],
+    "answer": "word-spacing"
+  },
+  {
+    "question": "Which property controls the space between letters?",
+    "options": ["letter-spacing", "word-spacing", "text-spacing", "font-spacing"],
+    "answer": "letter-spacing"
+  },
+  {
+    "question": "Which CSS property is used to hide overflow content?",
+    "options": ["overflow", "visibility", "clip", "hidden"],
+    "answer": "overflow"
+  },
+  {
+    "question": "Which value of overflow adds scrollbars only when needed?",
+    "options": ["auto", "scroll", "hidden", "visible"],
+    "answer": "auto"
+  },
+  {
+    "question": "Which property sets the maximum width of an element?",
+    "options": ["max-width", "width", "limit-width", "max-size"],
+    "answer": "max-width"
+  },
+  {
+    "question": "Which property sets the minimum height?",
+    "options": ["min-height", "min-size", "height", "min-block"],
+    "answer": "min-height"
+  },
+  {
+    "question": "Which CSS property adds decoration to text?",
+    "options": ["text-decoration", "text-style", "font-decoration", "decoration"],
+    "answer": "text-decoration"
+  },
+  {
+    "question": "Which value of text-decoration underlines the text?",
+    "options": ["underline", "line", "under", "bottom-line"],
+    "answer": "underline"
+  },
+  {
+    "question": "Which CSS property transforms text into uppercase?",
+    "options": ["text-transform", "text-case", "case-transform", "uppercase"],
+    "answer": "text-transform"
+  },
+  {
+    "question": "Which CSS property controls line spacing?",
+    "options": ["line-height", "text-height", "line-spacing", "font-height"],
+    "answer": "line-height"
+  },
+  {
+    "question": "Which CSS property changes the cursor style?",
+    "options": ["cursor", "pointer", "mouse", "cursor-style"],
+    "answer": "cursor"
+  },
+  {
+    "question": "Which cursor value shows a hand pointer?",
+    "options": ["pointer", "hand", "click", "select"],
+    "answer": "pointer"
+  },
+  {
+    "question": "Which CSS property sets the style of a border?",
+    "options": ["border-style", "border-type", "style-border", "border"],
+    "answer": "border-style"
+  },
+  {
+    "question": "Which property sets the thickness of a border?",
+    "options": ["border-width", "border-size", "border-thickness", "width-border"],
+    "answer": "border-width"
+  },
+  {
+    "question": "Which property sets the color of the border?",
+    "options": ["border-color", "color-border", "border-shade", "outline-color"],
+    "answer": "border-color"
+  },
+  {
+    "question": "Which property sets the spacing between grid items?",
+    "options": ["gap", "grid-gap", "spacing", "space-between"],
+    "answer": "gap"
+  },
+  {
+    "question": "Which display value shows elements one below another?",
+    "options": ["block", "inline", "flex", "grid"],
+    "answer": "block"
+  },
+  {
+    "question": "Which display value keeps elements on the same line?",
+    "options": ["inline", "block", "flex", "inline-block"],
+    "answer": "inline"
+  },
+  {
+    "question": "Which CSS property sets the transparency of color?",
+    "options": ["opacity", "visibility", "alpha-color", "filter"],
+    "answer": "opacity"
+  },
+  {
+    "question": "Which CSS property applies a blur or color effect?",
+    "options": ["filter", "opacity", "blur", "effect"],
+    "answer": "filter"
+  },
+  {
+    "question": "Which filter value is used to blur elements?",
+    "options": ["blur()", "blur-effect()", "blurry()", "blurred()"],
+    "answer": "blur()"
+  },
+  {
+    "question": "Which property is used to animate transitions like hover?",
+    "options": ["transition", "animation", "hover-animation", "timing"],
+    "answer": "transition"
+  },
+  {
+    "question": "Which part of the transition property sets how long it takes?",
+    "options": ["transition-duration", "transition-time", "duration", "speed"],
+    "answer": "transition-duration"
+  },
+  {
+    "question": "Which timing function makes animation slow at start and end?",
+    "options": ["ease", "linear", "ease-in", "ease-out"],
+    "answer": "ease"
+  },
+  {
+    "question": "Which timing function runs animation at constant speed?",
+    "options": ["linear", "ease", "ease-in-out", "ease-out"],
+    "answer": "linear"
+  },
+  {
+    "question": "Which property changes how the background image repeats?",
+    "options": ["background-repeat", "background-style", "repeat", "background-loop"],
+    "answer": "background-repeat"
+  },
+  {
+    "question": "Which value of background-repeat sets no repeating?",
+    "options": ["no-repeat", "none", "stop", "repeat-none"],
+    "answer": "no-repeat"
+  },
+  {
+    "question": "Which property fixes the background so it doesn’t scroll?",
+    "options": ["background-attachment: fixed", "background-fixed", "attach-fixed", "bg-fixed"],
+    "answer": "background-attachment: fixed"
+  },
+  {
+    "question": "Which property controls the size of a background image?",
+    "options": ["background-size", "size-background", "image-size", "bg-size"],
+    "answer": "background-size"
+  },
+  {
+    "question": "Which background-size value covers the entire area?",
+    "options": ["cover", "contain", "fit", "fill"],
+    "answer": "cover"
+  },
+  {
+    "question": "Which background-size value fits the entire image inside the area?",
+    "options": ["contain", "cover", "fit", "fill"],
+    "answer": "contain"
+  },
+  {
+    "question": "Which CSS property applies a shadow around an element?",
+    "options": ["box-shadow", "element-shadow", "shadow", "border-shadow"],
+    "answer": "box-shadow"
+  },
+  {
+    "question": "Which property removes bullet points from lists?",
+    "options": ["list-style-type: none", "remove-list", "list-none", "bullet-hide"],
+    "answer": "list-style-type: none"
+  },
+  {
+    "question": "Which property is used to control table border merging?",
+    "options": ["border-collapse", "table-collapse", "collapse", "border-merge"],
+    "answer": "border-collapse"
+  },
+  {
+    "question": "Which border-collapse value merges table borders?",
+    "options": ["collapse", "separate", "merge", "join"],
+    "answer": "collapse"
+  },
+  {
+    "question": "Which unit is the smallest absolute CSS unit?",
+    "options": ["px", "pt", "cm", "mm"],
+    "answer": "px"
+  },
+  {
+    "question": "Which unit is relative to the parent font size?",
+    "options": ["em", "rem", "%", "vw"],
+    "answer": "em"
+  },
+  {
+    "question": "Which CSS unit represents 1% of viewport width?",
+    "options": ["vw", "vh", "%", "vmin"],
+    "answer": "vw"
+  },
+  {
+    "question": "Which CSS unit represents 1% of viewport height?",
+    "options": ["vh", "vw", "%", "vmax"],
+    "answer": "vh"
+  },
+  {
+    "question": "Which property defines the order of flex items?",
+    "options": ["order", "flex-order", "item-order", "sort"],
+    "answer": "order"
+  },
+  {
+    "question": "Which property allows flex items to wrap into multiple lines?",
+    "options": ["flex-wrap", "wrap-flex", "flex-flow", "wrap"],
+    "answer": "flex-wrap"
+  },
+  {
+    "question": "Which shorthand combines flex-direction and flex-wrap?",
+    "options": ["flex-flow", "flex-layout", "flex-setup", "wrap-direction"],
+    "answer": "flex-flow"
+  },
+  {
+    "question": "Which CSS property aligns content in a grid container?",
+    "options": ["align-content", "justify-items", "grid-align", "align-grid"],
+    "answer": "align-content"
+  },
+  {
+    "question": "Which property controls horizontal alignment in grid?",
+    "options": ["justify-items", "align-items", "justify-content", "justify-grid"],
+    "answer": "justify-items"
+  },
+  {
+    "question": "Which property controls vertical alignment in grid?",
+    "options": ["align-items", "justify-items", "align-content", "vertical-align"],
+    "answer": "align-items"
+  },
+  {
+    "question": "Which property sets how long a transition delay lasts?",
+    "options": ["transition-delay", "delay-transition", "wait-time", "transition-wait"],
+    "answer": "transition-delay"
+  },
+  {
+    "question": "Which CSS property sets an outline outside the border?",
+    "options": ["outline", "border", "outer-line", "stroke"],
+    "answer": "outline"
+  },
+  {
+    "question": "Which property sets spacing between grid tracks?",
+    "options": ["grid-gap", "gap", "track-gap", "row-gap"],
+    "answer": "grid-gap"
+  },
+  {
+    "question": "Which CSS property specifies whether text can wrap?",
+    "options": ["white-space", "text-wrap", "wrap-text", "text-space"],
+    "answer": "white-space"
+  },
+  {
+    "question": "Which white-space value prevents text wrapping?",
+    "options": ["nowrap", "no-wrap", "stop-wrap", "inline"],
+    "answer": "nowrap"
+  }
+]
+}
+

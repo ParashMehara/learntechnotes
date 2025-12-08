@@ -1,0 +1,148 @@
+<!-- File: result.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz Result</title>
+
+    <style>
+        body {
+            background: #000;
+            color: #fff;
+            font-family: "Poppins", sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .result-box {
+            background: #111;
+            padding: 40px;
+            border-radius: 18px;
+            width: 90%;
+            max-width: 500px;
+            text-align: center;
+            box-shadow: 0 0 25px #000;
+            border: 1px solid #222;
+            animation: fadeIn 0.8s ease-out;
+        }
+
+        h2 {
+            color: #ffdd00;
+            font-size: 30px;
+            margin-bottom: 10px;
+        }
+
+        .score-circle {
+            width: 140px;
+            height: 140px;
+            margin: 20px auto;
+            background: #1a1a1a;
+            border-radius: 50%;
+            border: 4px solid #ffdd00;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 32px;
+            font-weight: bold;
+            color: #ffdd00;
+            box-shadow: 0 0 15px #ffdd0099;
+            animation: popIn 0.7s ease-out;
+        }
+
+        p {
+            color: #ccc;
+            font-size: 18px;
+            margin: 10px 0;
+        }
+
+        .btn {
+            background: #ffdd00;
+            color: #000;
+            border: none;
+            padding: 12px 22px;
+            border-radius: 10px;
+            cursor: pointer;
+            margin: 12px 0;
+            font-size: 16px;
+            width: 80%;
+            max-width: 280px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #fff;
+            color: #000;
+            transform: scale(1.07);
+            box-shadow: 0 0 10px #ffdd00;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(15px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes popIn {
+            0% { transform: scale(0.5); opacity: 0; }
+            100% { transform: scale(1); opacity: 1; }
+        }
+    </style>
+
+</head>
+<body>
+
+    <div class="result-box">
+        <h2>Your Result</h2>
+
+        <div class="score-circle" id="scoreDisplay">0/0</div>
+
+        <p id="message"></p>
+
+        <button class="btn" onclick="viewAnswers()">View Correct & Wrong Answers</button>
+        <button class="btn" onclick="restartQuiz()">Try Again</button>
+        <button class="btn" onclick="goHome()">Go to Home Page</button>
+    </div>
+
+
+    <script>
+        // Get score details from URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const score = urlParams.get("score");
+        const total = urlParams.get("total");
+
+        document.getElementById("scoreDisplay").textContent = `${score}/${total}`;
+
+        // Message logic
+        const msg = document.getElementById("message");
+
+        if (score == total) {
+            msg.textContent = "🔥 Excellent! Perfect Score!";
+        } else if (score >= total * 0.7) {
+            msg.textContent = "👏 Great Job! You performed really well.";
+        } else if (score >= total * 0.4) {
+            msg.textContent = "🙂 Good Try! Keep practicing.";
+        } else {
+            msg.textContent = "⚡ Don't give up! Practice more to improve.";
+        }
+
+        function viewAnswers() {
+            window.location.href = "answers.html";  // you can create this page later
+        }
+
+        function restartQuiz() {
+            history.back();
+        }
+
+        function goHome() {
+            window.location.href = "index.html";
+        }
+    </script>
+
+</body>
+</html>
+

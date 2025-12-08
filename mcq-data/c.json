@@ -1,0 +1,419 @@
+{
+  "mcqs": [
+    {
+      "question": "Which of the following is the correct syntax to declare a variable in C?",
+      "options": ["int num;", "num int;", "integer num;", "declare int num;"],
+      "answer": "int num;"
+    },
+    {
+      "question": "Which header file is needed for the printf() function?",
+      "options": ["<string.h>", "<stdio.h>", "<stdlib.h>", "<conio.h>"],
+      "answer": "<stdio.h>"
+    },
+    {
+      "question": "What is the size of int in most 64-bit systems?",
+      "options": ["2 bytes", "4 bytes", "8 bytes", "Depends on compiler"],
+      "answer": "4 bytes"
+    },
+    {
+      "question": "What is the output of: printf(\"%d\", 5+3*2);",
+      "options": ["16", "11", "10", "13"],
+      "answer": "11"
+    },
+    {
+      "question": "Which of these is NOT a keyword in C?",
+      "options": ["auto", "record", "extern", "break"],
+      "answer": "record"
+    },
+    {
+      "question": "Which operator is used to get the address of a variable?",
+      "options": ["*", "&", "#", "@"],
+      "answer": "&"
+    },
+    {
+      "question": "What is the correct format specifier for a float?",
+      "options": ["%f", "%lf", "%d", "%c"],
+      "answer": "%f"
+    },
+    {
+      "question": "Which function is used to read a string in C?",
+      "options": ["scanf()", "gets()", "puts()", "fopen()"],
+      "answer": "gets()"
+    },
+    {
+      "question": "Which loop is guaranteed to execute at least once?",
+      "options": ["for", "while", "do-while", "None"],
+      "answer": "do-while"
+    },
+    {
+      "question": "Array indexing in C starts from:",
+      "options": ["1", "0", "-1", "Depends on array"],
+      "answer": "0"
+    },
+    {
+      "question": "Which of the following is a valid comment in C?",
+      "options": ["# comment", "// comment", "<!-- comment -->", "** comment **"],
+      "answer": "// comment"
+    },
+    {
+      "question": "What is the output of: printf(\"%c\", 'A'+2);",
+      "options": ["A", "B", "C", "D"],
+      "answer": "C"
+    },
+    {
+      "question": "Which operator is used for pointer dereferencing?",
+      "options": ["&", "*", "->", "%"],
+      "answer": "*"
+    },
+    {
+      "question": "What is the default return type of a function if not specified?",
+      "options": ["float", "int", "void", "char"],
+      "answer": "int"
+    },
+    {
+      "question": "Which of the following is a valid string in C?",
+      "options": ["'Hello'", "\"Hello\"", "`Hello`", "(Hello)"],
+      "answer": "\"Hello\""
+    },
+    {
+      "question": "What is the result of 10 % 4?",
+      "options": ["2", "3", "1", "0"],
+      "answer": "2"
+    },
+    {
+      "question": "Which header file is required for malloc()?",
+      "options": ["<malloc.h>", "<memory.h>", "<stdlib.h>", "<stdio.h>"],
+      "answer": "<stdlib.h>"
+    },
+    {
+      "question": "Which function is used to find the length of a string?",
+      "options": ["strlen()", "strlength()", "size()", "count()"],
+      "answer": "strlen()"
+    },
+    {
+      "question": "Which data type is used for single characters?",
+      "options": ["char", "int", "string", "text"],
+      "answer": "char"
+    },
+    {
+      "question": "Which escape sequence represents a newline?",
+      "options": ["\\t", "\\n", "\\r", "\\s"],
+      "answer": "\\n"
+    },
+    {
+      "question": "What does sizeof(char) return?",
+      "options": ["1", "2", "4", "Depends on compiler"],
+      "answer": "1"
+    },
+    {
+      "question": "Which operator is used to access members of a struct through a pointer?",
+      "options": [".", "->", "::", "%"],
+      "answer": "->"
+    },
+    {
+      "question": "Which of the following is used to terminate a string?",
+      "options": ["\\t", "\\0", "\\n", "space"],
+      "answer": "\\0"
+    },
+    {
+      "question": "What will happen if an array index is out of bounds?",
+      "options": ["Compilation error", "Runtime error", "Undefined behavior", "Index ignored"],
+      "answer": "Undefined behavior"
+    },
+    {
+      "question": "What is the return type of main() in C?",
+      "options": ["void", "int", "char", "float"],
+      "answer": "int"
+    },
+    {
+      "question": "What is the output of: printf(\"%d\", sizeof(5.2));",
+      "options": ["4", "8", "2", "Depends on system"],
+      "answer": "8"
+    },
+    {
+      "question": "Which keyword is used to define a constant in C?",
+      "options": ["static", "const", "final", "constant"],
+      "answer": "const"
+    },
+    {
+      "question": "Which loop is best when the number of iterations is known?",
+      "options": ["while", "do-while", "for", "goto"],
+      "answer": "for"
+    },
+    {
+      "question": "Which operator is used for logical AND?",
+      "options": ["&", "&&", "and", "||"],
+      "answer": "&&"
+    },
+    {
+      "question": "What is the correct syntax to declare an array of 10 integers?",
+      "options": ["int arr[] = 10;", "int arr[10];", "array int arr(10);", "int arr = [10];"],
+      "answer": "int arr[10];"
+    },
+    {
+      "question": "Which function is used to compare two strings?",
+      "options": ["strcmp()", "strcomp()", "compare()", "stringcmp()"],
+      "answer": "strcmp()"
+    },
+    {
+      "question": "What is the output of: printf(\"%d\", 3==3);",
+      "options": ["true", "false", "1", "0"],
+      "answer": "1"
+    },
+    {
+      "question": "Which storage class makes a variable accessible only within the file?",
+      "options": ["auto", "static", "extern", "register"],
+      "answer": "static"
+    },
+    {
+      "question": "Which keyword is used to exit a loop immediately?",
+      "options": ["stop", "exit", "break", "quit"],
+      "answer": "break"
+    },
+    {
+      "question": "Which directive is used to include a header file?",
+      "options": ["$include", "#include", "@include", "%include"],
+      "answer": "#include"
+    },
+    {
+      "question": "What is the purpose of return 0 in main()?",
+      "options": ["Indicates program failed", "Indicates program succeeded", "Prints 0", "Nothing"],
+      "answer": "Indicates program succeeded"
+    },
+    {
+      "question": "Which type of function cannot return multiple values?",
+      "options": ["C function", "Python function", "Java function", "All listed"],
+      "answer": "C function"
+    },
+    {
+      "question": "What is the output of: printf(\"%d\", 'a');",
+      "options": ["a", "97", "65", "Undefined"],
+      "answer": "97"
+    },
+    {
+      "question": "Which symbol is used for conditional/ternary operator?",
+      "options": ["::", "?", "->", "#"],
+      "answer": "?"
+    },
+    {
+      "question": "Which of these is a correct declaration of pointer?",
+      "options": ["ptr int*;", "int *ptr;", "pointer ptr;", "int ptr*;"],
+      "answer": "int *ptr;"
+    },
+    {
+      "question": "Which function releases dynamically allocated memory?",
+      "options": ["free()", "delete()", "release()", "remove()"],
+      "answer": "free()"
+    },
+    {
+      "question": "Which format specifier is used for long int?",
+      "options": ["%li", "%ld", "%long", "%l"],
+      "answer": "%ld"
+    },
+    {
+      "question": "Which of the following is not a valid data type?",
+      "options": ["short", "long", "real", "double"],
+      "answer": "real"
+    },
+    {
+      "question": "Which operator has the highest precedence?",
+      "options": ["*", "()", "=", "&&"],
+      "answer": "()"
+    },
+    {
+      "question": "What is the output: printf(\"%d\", 10/3);",
+      "options": ["3.33", "3", "4", "Error"],
+      "answer": "3"
+    },
+    {
+      "question": "Which function is used to open a file?",
+      "options": ["file()", "open()", "fopen()", "start()"],
+      "answer": "fopen()"
+    },
+    {
+      "question": "Which escape sequence is used for tab?",
+      "options": ["\\n", "\\t", "\\r", "\\s"],
+      "answer": "\\t"
+    },
+    {
+      "question": "What is a dangling pointer?",
+      "options": [
+        "Pointer that stores NULL",
+        "Pointer to freed memory",
+        "Pointer to array only",
+        "Pointer pointing to pointer"
+      ],
+      "answer": "Pointer to freed memory"
+    },
+    {
+      "question": "Which of the following is NOT a loop in C?",
+      "options": ["for", "repeat", "while", "do-while"],
+      "answer": "repeat"
+    },
+    {
+      "question": "What is recursion?",
+      "options": [
+        "Function calling itself",
+        "Loop inside loop",
+        "Calling multiple functions",
+        "None"
+      ],
+      "answer": "Function calling itself"
+    },
+    {
+      "question": "What is the output of: printf(\"%d\", sizeof('A'));",
+      "options": ["1", "2", "4", "Depends on compiler"],
+      "answer": "4"
+    },
+    {
+      "question": "Which operator is used to access value at pointer address?",
+      "options": ["&", "*", "->", "."],
+      "answer": "*"
+    },
+    {
+      "question": "Which operator is used to get the address of a variable?",
+      "options": ["@", "#", "&", "*"],
+      "answer": "&"
+    },
+    {
+      "question": "Which header file contains malloc()?",
+      "options": ["stdio.h", "stdlib.h", "string.h", "malloc.h"],
+      "answer": "stdlib.h"
+    },
+    {
+      "question": "What is the output of: printf(\"%d\", 7 % 3);",
+      "options": ["1", "2", "3", "4"],
+      "answer": "1"
+    },
+    {
+      "question": "Which keyword is used to declare a structure?",
+      "options": ["struct", "structure", "class", "record"],
+      "answer": "struct"
+    },
+    {
+      "question": "Which of these can store decimal values?",
+      "options": ["int", "float", "char", "short"],
+      "answer": "float"
+    },
+    {
+      "question": "What will happen if array index is out of bounds?",
+      "options": ["Compiler error", "Runtime error", "Undefined behavior", "Program stops"],
+      "answer": "Undefined behavior"
+    },
+    {
+      "question": "Which keyword is used to skip one loop iteration?",
+      "options": ["skip", "continue", "break", "jump"],
+      "answer": "continue"
+    },
+    {
+      "question": "Which statement is used to come out of switch?",
+      "options": ["return", "stop", "break", "exit"],
+      "answer": "break"
+    },
+    {
+      "question": "Which data type has the largest range?",
+      "options": ["int", "float", "double", "char"],
+      "answer": "double"
+    },
+    {
+      "question": "Which symbol is used for OR operator?",
+      "options": ["||", "|", "or", "//"],
+      "answer": "||"
+    },
+    {
+      "question": "Which function is used to print formatted output?",
+      "options": ["print()", "printf()", "cout", "printfln()"],
+      "answer": "printf()"
+    },
+    {
+      "question": "Which header file is needed for string functions?",
+      "options": ["string.h", "strings.h", "str.h", "stdstr.h"],
+      "answer": "string.h"
+    },
+    {
+      "question": "What is the file extension of a C program?",
+      "options": [".txt", ".exe", ".c", ".cpp"],
+      "answer": ".c"
+    },
+    {
+      "question": "What is the output of: printf(\"%d\", 5 && 0);",
+      "options": ["1", "5", "0", "Error"],
+      "answer": "0"
+    },
+    {
+      "question": "Which function gets a single character input?",
+      "options": ["get()", "input()", "getchar()", "scan()"],
+      "answer": "getchar()"
+    },
+    {
+      "question": "What is the default return type of a function in C (old C)?",
+      "options": ["int", "void", "float", "None"],
+      "answer": "int"
+    },
+    {
+      "question": "Which file mode is used to read a file?",
+      "options": ["r", "read", "open", "file"],
+      "answer": "r"
+    },
+    {
+      "question": "What is the output of: printf(\"%d\", !5);",
+      "options": ["0", "1", "-1", "5"],
+      "answer": "0"
+    },
+    {
+      "question": "Which operator is used to access structure members using a pointer?",
+      "options": ["*", ".", "->", "&"],
+      "answer": "->"
+    },
+    {
+      "question": "Which function is used to move file pointer?",
+      "options": ["fseek()", "seek()", "pointer()", "move()"],
+      "answer": "fseek()"
+    },
+    {
+      "question": "Which loop executes at least once?",
+      "options": ["for", "while", "do-while", "none"],
+      "answer": "do-while"
+    },
+    {
+      "question": "Which function is used to generate random numbers?",
+      "options": ["random()", "rand()", "rnum()", "generate()"],
+      "answer": "rand()"
+    },
+    {
+      "question": "What is the output of: printf(\"%d\", sizeof(float));",
+      "options": ["2", "4", "8", "Depends"],
+      "answer": "4"
+    },
+    {
+      "question": "What is the output of: printf(\"%d\", 10/3);",
+      "options": ["3", "3.33", "4", "Error"],
+      "answer": "3"
+    },
+    {
+      "question": "Which operator has the highest precedence?",
+      "options": ["*", "+", "()", "++"],
+      "answer": "()"
+    },
+    {
+      "question": "Which function is used to copy strings?",
+      "options": ["strcopy()", "copystr()", "strcpy()", "copy()"],
+      "answer": "strcpy()"
+    },
+    {
+      "question": "What is an infinite loop?",
+      "options": [
+        "A loop that never ends",
+        "A loop that runs twice",
+        "A loop that prints infinite values",
+        "A loop that always breaks"
+      ],
+      "answer": "A loop that never ends"
+    },
+    {
+      "question": "What is the output: printf(\"%d\", 5 | 3);",
+      "options": ["1", "3", "7", "8"],
+      "answer": "7"
+    }
+  ]
+}
